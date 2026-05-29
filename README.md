@@ -1,4 +1,4 @@
-<p align="center">
+![Transcriptomics](https://img.shields.io/badge/Transcriptomics-pink?style=for-the-badge) <p align="center">
   <img src="plaatje.png" width="100%">
 </p>
 
