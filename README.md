@@ -1,7 +1,18 @@
 # Transcriptomics-J2P4BM
 
-**Inhoud**
+**📁 Inhoud/structuur**
 ___
 
 
 **Inleiding**
+____
+
+**Methoden**
+____
+
+**Resultaten**
+____
+
+
+**Conclusie**
+____
