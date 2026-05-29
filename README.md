@@ -4,15 +4,15 @@
 ---
 
 
-**Inleiding**
+**✍️Inleiding**
 ---
 
-**Methoden**
+**🧪Methoden**
 ---
 
-**Resultaten**
+**📊Resultaten**
 ---
 
 
-**Conclusie**
+**✅Conclusie**
 ---
