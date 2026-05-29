@@ -4,6 +4,8 @@
 
 <hr style="border:2px solid pink;">
 
+![Transcriptomics](https://img.shields.io/badge/Transcriptomics-pink?style=for-the-badge)
+
 **📁 Inhoud/structuur**
 ---
 
