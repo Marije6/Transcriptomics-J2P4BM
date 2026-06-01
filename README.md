@@ -15,9 +15,11 @@ De gebruikte literatuur en PDF-bestanden zijn terug te vinden in de map /bronnen
 ---
 
 **🧪Methoden**
-
-
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/754d4328-bc7a-474c-8378-b2df14f4cd24" />
+<p align="center">
+  <img width="600" alt="Workflow transcriptomics" src="https://github.com/user-attachments/assets/754d4328-bc7a-474c-8378-b2df14f4cd24" />
+  <br>
+  <em>Figuur 1. Workflow van de transcriptomics-analyse van synoviumbiopten van RA-patiënten en controles.</em>
+</p>
 
 ---
 
