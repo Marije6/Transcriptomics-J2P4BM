@@ -15,6 +15,9 @@ De gebruikte literatuur en PDF-bestanden zijn terug te vinden in de map /bronnen
 ---
 
 **🧪Methoden**
+
+Voor dit onderzoek werd RNA-sequencingdata gebruikt van synoviumbiopten afkomstig van vier patiënten met reumatoïde artritis (RA) en vier gezonde patienten als controles. De raw sequencingdata werd geanalyseerd in R. 
+
 <p align="center">
   <img width="600" alt="Workflow transcriptomics" src="https://github.com/user-attachments/assets/754d4328-bc7a-474c-8378-b2df14f4cd24" />
   <br>
