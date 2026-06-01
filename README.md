@@ -10,7 +10,7 @@
 
 **✍️Inleiding**
               
-De gebruikte literatuur en PDF-bestanden zijn terug te vinden in de map /sources van deze repository.
+De gebruikte literatuur en PDF-bestanden zijn terug te vinden in de map /bronnen van deze repository.
 
 ---
 
