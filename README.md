@@ -12,6 +12,7 @@
 Reumatoïde artritis (RA) is een chronische auto-immuunziekte waarbij het immuunsysteem gezond gewrichtsweefsel aanvalt. Bij RA kan je ook last hebben van synovitis. Dit is een ontsteking van het gewrichtsslijmvlies (synovium), die kan leiden tot pijn, stijfheid en gewrichtsschade. De precieze oorzaak van RA is nog niet helemaal bekend. Wel zijn er verschillende factoren die invloed hebben zoals genetische aanleg en omgevingsfactoren.                 
 De gebruikte literatuur en PDF-bestanden zijn terug te vinden in de map /bronnen van deze repository.
 
+
 ---
 
 **🧪Methoden**
