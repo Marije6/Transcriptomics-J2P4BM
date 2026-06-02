@@ -9,7 +9,7 @@
 
 
 **✍️Inleiding**
-              
+Reumatoïde artritis (RA) is een chronische auto-immuunziekte waarbij het immuunsysteem gezond gewrichtsweefsel aanvalt.               
 De gebruikte literatuur en PDF-bestanden zijn terug te vinden in de map /bronnen van deze repository.
 
 ---
