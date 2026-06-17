@@ -35,7 +35,7 @@ De gebruikte literatuur en PDF-bestanden zijn terug te vinden in de map /bronnen
 
 **Dataset**
 
-Voor dit onderzoek zijn RNA-sequencing data gebruikt afkomstig van synoviumbiopten. De dataset bestaat uit 8 samples, waarvan 4 afkomstig zijn van personen zonder Reumatoïde Artritis (controle) en 4 van personen met gevestigde RA (>12 maanden diagnose). De RA-patiënten zijn ACPA-positief getest, terwijl de controlegroep ACPA-negatief is. De data zijn afkomstig uit eerder uitgevoerd onderzoek (Platzer et al., 2019).
+Voor dit onderzoek zijn RNA-sequencing data gebruikt afkomstig van synoviumbiopten. De dataset bestaat uit 8 samples, waarvan 4 afkomstig zijn van personen zonder Reumatoïde Artritis (controle) en 4 van personen met gevestigde RA (>12 maanden diagnose). De RA-patiënten zijn ACPA-positief getest, terwijl de controlegroep ACPA-negatief is. De data zijn afkomstig uit eerder uitgevoerd onderzoek [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf)
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ed966d2b-4611-4245-9f8a-6f4f55a9eceb" />
 
