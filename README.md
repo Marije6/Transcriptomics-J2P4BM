@@ -4,14 +4,23 @@
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3693eb18-52cd-45f9-b115-4d4fa58cfdd2" />
 
-data/raw/ – datasets voor de analyse
-data/processed - verwerkte datasets gegenereerd met scripts
-scripts/ – scripts in R
-resultaten/ - grafieken en tabellen
-bronnen/ - gebruikte bronnen
-README.md - het document om de tekst hier te genereren
-assets/ - overige documenten voor de opmaak van deze pagina
-data_stewardship/ - Voor de competentie beheren ga je aantonen dat je projectgegevens kunt beheren met behulp van GitHub. In deze folder kan je hulpvragen terugvinden om je op gang te helpen met de uitleg van data stewardship.
+- `data/ruw/` –  datasets voor de analyse van 
+
+- `data/processed` - verwerkte datasets gegenereerd met scripts 
+
+- `scripts/` – scripts 
+
+- `resultaten/` - grafieken en tabellen
+
+- `bronnen/` - gebruikte bronnen 
+
+- `README.md` - het document om de tekst hier te genereren
+
+- `assets/` - overige documenten voor de opmaak van deze pagina
+
+- `data_stewardship/` - Voor de competentie beheren. 
+
+
 ---
 
 
