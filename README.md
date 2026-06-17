@@ -4,19 +4,17 @@
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3693eb18-52cd-45f9-b115-4d4fa58cfdd2" />
 
-- `data/ruw/` –  datasets voor de analyse van 
+- `data/ruw/` –  Bevat de ruwe sequencing datasets die als input dienen voor de analyse
 
-- `data/processed` - verwerkte datasets gegenereerd met scripts 
+- `data/processed` - Bevat verwerkte datasets die zijn gegenereerd met behulp van scripts
 
-- `scripts/` – scripts 
+- `scripts/` – R -scripts voor data-analyse, verwerking en visualisatie
 
-- `resultaten/` - grafieken en tabellen
+- `resultaten/` - Output van de analyse, zoals grafieken, tabellen en figuren
 
-- `bronnen/` - gebruikte bronnen 
+- `bronnen/` - Referenties en literatuur gebruikt binnen het project
 
-- `README.md` - het document om de tekst hier te genereren
-
-- `assets/` - overige documenten voor de opmaak van deze pagina
+- `README.md` - Overzicht en uitleg van het project, inclusief doel, methode en resultaten
 
 - `data_stewardship/` - Voor de competentie beheren. 
 
