@@ -37,7 +37,7 @@ Voor dit onderzoek zijn RNA-sequencing data gebruikt afkomstig van synoviumbiopt
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ed966d2b-4611-4245-9f8a-6f4f55a9eceb" />
 
-  <em>Figuur 1. Workflow van de transcriptomics-analyse van synoviumbiopten van RA-patiënten en controles.</em>
+  <em> Workflow van de transcriptomics-analyse van synoviumbiopten van RA-patiënten en controles.</em>
 </p>
 
 ---
