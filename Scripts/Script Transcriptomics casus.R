@@ -255,3 +255,19 @@ pathview(
   pathway.id = top_pathway,
   species = "hsa"
 )
+
+#inzoomen pathway
+View(kegg_df)
+#
+grep("Rheumatoid", kegg_df$Description, value = TRUE)
+#
+grep("TNF", kegg_df$Description, value = TRUE)
+#
+grep("IL-17", kegg_df$Description, value = TRUE)
+#
+
+pathview(
+  gene.data = gene_data,
+  pathway.id = "hsa05323",
+  species = "hsa"
+)
