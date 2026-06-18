@@ -53,15 +53,27 @@ Voor visualisatie is een volcano plot gegenereerd met EnhancedVolcano. Ook zijn 
 
 **💗Resultaten**
 ---
-De volcano plot [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png) toont meerdere significant differentieel geëxprimeerde genen tussen RA-patiënten en controles. Zowel verhoogde als verlaagde genexpressie werd waargenomen. Daarnaast liet de KEGG-analyse zien dat genen betrokken bij immuun- en ontstekingsprocessen differentieel tot expressie kwamen.
+
+### 🔬 Vulcano plot
+De vulcano plot [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png) toont meerdere significant differentieel geëxprimeerde genen tussen RA-patiënten en controles. Zowel verhoogde als verlaagde genexpressie werd waargenomen.
 
 <img width="1833" height="791" alt="Vulcano Plot" src="https://github.com/user-attachments/assets/cdf04c7c-db35-4032-9e3d-5a88f7467582" />
+<sub><b>Figuur 1.</b> Vulcano plot van significant differentieel geexpermeerde genen tussen RA-patienten en controles. (p.adjust).</sub>
+
+---
+
+### 🔬 GO- Analyse
+
 
 De GO-analyse toonde een sterke verrijking van immuungerelateerde processen, waaronder lymfocytdifferentiatie, leukocyt-gemedieerde immuniteit, T-celdifferentiatie en B-celactivatie ([Figuur 2](./Resultaten/Figuur%202.%20GO-analyse.png)). Deze processen waren significant verrijkt onder de differentieel geëxpresseerde genen.
 <img width="1918" height="990" alt="GO-analyse" src="https://github.com/user-attachments/assets/e063c510-8c18-4256-9e2c-3295852eb341" />
+<sub>**Figuur 2.** GO-enrichmentanalyse van differentieel geëxpresseerde genen tussen RA-patiënten en controles. De meest verrijkte biologische processen zijn voornamelijk gerelateerd aan immuunresponsen, waaronder lymfocytdifferentiatie, leukocyt-gemedieerde immuniteit, T-celdifferentiatie en B-celactivatie. De grootte van de stippen geeft het aantal genen weer en de kleur de gecorrigeerde p-waarde .</sub>
 
+
+---
+
+### 🔬 Barplot en dotplot Kegg pathway-analyse
 De barplot en dotplot van de KEGG pathway-analyse lieten zien dat verschillende ontstekings- en immuungerelateerde pathways significant verrijkt waren bij RA. De meest verrijkte pathways waren onder andere de MAPK, TNF, NF-kappa B, IL-17 en NOD-like receptor signaling pathways ([Figuur 3](./Resultaten/Figuur%203.%20Dotplot%20Kegg%20result.png) en [Figuur 4](./Resultaten/Figuur%204.%20Barplot%20Kegg%20result.png)).
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/846db693-43b7-4cf1-809d-5fa5bc70716a" alt="Barplot KEGG result" width="350">
   <img src="https://github.com/user-attachments/assets/2e721ee1-5bb4-490a-8e47-9bfce5d7d6d8" alt="Dotplot KEGG result" width="350">
@@ -70,8 +82,12 @@ De barplot en dotplot van de KEGG pathway-analyse lieten zien dat verschillende 
   <b>Figuur 4:</b> Barplot van de KEGG pathway-analyse &nbsp;&nbsp;&nbsp;
   <b>Figuur 3:</b> Dotplot van de KEGG pathway-analyse
 </p
+  
+<sub><b>Figuur 3 & 4.</b> Dotplot van de KEGG pathway-analyse van differentieel geëxpresseerde genen tussen RA-patiënten en controles. De grootte van de stippen geeft het aantal genen weer en de kleur de gecorrigeerde p-waarde.</sub>
 
+---
 
+### 🔬 Kegg-pathway
 Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier controles liet verschillen in genexpressie zien binnen de KEGG-pathway voor reumatoïde artritis ([Figuur 9](Resultaten/Figuur%209.%20KEGG-pathway%20van%20Reumato%C3%AFde%20Artritis%20(RA).png)). Meerdere ontstekingsgerelateerde genen, waaronder **IL1A**, **IL1B**, **CD28** en **MMP13**, waren verhoogd tot expressie gebracht bij RA, terwijl andere genen een verlaagde expressie vertoonden. Deze resultaten wijzen op activatie van immuun- en ontstekingsprocessen die bijdragen aan synovitis, gewrichtsschade en botafbraak, kenmerkende eigenschappen van reumatoïde artritis. De referentiepathway is weergegeven in [Figuur 10](Resultaten/Figuur%2010.%20Referentie%20KEGG-pathway%20van%20Reumato%C3%AFde%20Artritis..png).
 
 <div align="center">
@@ -88,9 +104,11 @@ Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier con
     </td>
   </tr>
 </table>
-
 </div>
 
+<sub>Figuur 5 & 6. KEGG Rheumatoid Arthritis pathway. Figuur 5 toont de standaard pathway, terwijl Figuur 6 de differentiële genexpressie tussen RA-patiënten en controles weergeeft. Rood duidt op verhoogde expressie en groen op verlaagde expressie.</sub>
+
+---
 
 
 **💗Conclusie**
