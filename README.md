@@ -28,7 +28,7 @@
 
 Reumatoïde artritis (RA) is een chronische auto-immuunziekte waarbij het immuunsysteem gezond gewrichtsweefsel aanvalt. Bij RA kan je ook last hebben van synovitis. Dit is een ontsteking van het gewrichtsslijmvlies (synovium), die kan leiden tot pijn, stijfheid en gewrichtsschade. De precieze oorzaak van RA is nog niet helemaal bekend. Wel zijn er verschillende factoren die invloed hebben zoals genetische aanleg en omgevingsfactoren. Met behulp van transcriptomics kan worden onderzocht welke genen actief zijn in gezond en ziek weefsel.[Wang et al., 2022](Bronnen/Wang%20et%20al.,%202022.pdf) Door genexpressiepatronen te vergelijken tussen patiënten met RA en gezonde controles kunnen genen en biologische processen worden geïdentificeerd die betrokken zijn bij het ziekteproces. Dit levert meer inzicht op in de moleculaire mechanismen achter RA en kan bijdragen aan de ontwikkeling van betere diagnostische methoden en behandelingen. [Dessein et al., 2022](Bronnen/Dessein%20et%20al.,%202022.pdf)
 
-In dit project wordt een transcriptomicsanalyse uitgevoerd op RNA-sequencingdata van synoviumbiopten van vier patiënten met RA en vier gezonde controles. Met behulp van R worden differentieel tot expressie komende genen geïdentificeerd en wordt met een Gene Ontology-analyse onderzocht welke biologische pathways een rol spelen bij het ontstaan en de ontwikkeling van reumatoïde artritis.[Platzer et al., 2019](Bronnen/Platzer%20et%20al.,%202019.pdf)
+In dit project wordt een transcriptomicsanalyse uitgevoerd op RNA-sequencingdata van synoviumbiopten van 8 vrouwelijke patiënten. 4 hiervan met RA en vier gezonde patiënten als controles. Met behulp van R worden differentieel tot expressie komende genen geïdentificeerd en wordt met een GO-analyse onderzocht welke biologische pathways een rol spelen bij het ontstaan en de ontwikkeling van reumatoïde artritis.[Platzer et al., 2019](Bronnen/Platzer%20et%20al.,%202019.pdf)
 
 Onderzoeksvraag moet nog!!
 
@@ -37,16 +37,19 @@ Onderzoeksvraag moet nog!!
 
 **💗Methoden**
 
-Voor dit onderzoek is gebruikgemaakt van RNA-sequencing (RNA-seq) data afkomstig van synoviumbiopten. De dataset bestaat uit acht samples: vier van controles zonder reumatoïde artritis (RA) en vier van RA-patiënten met een ziekteduur van minimaal 12 maanden. Alle patiënten waren ACPA-positief en de controles ACPA-negatief. De gebruikte data zijn afkomstig van [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf) 
+Voor dit onderzoek is gebruikgemaakt van RNA-sequencing (RNA-seq) data afkomstig van synoviumbiopten. De dataset bestaat uit acht samples van vrouwelijke patiënten: vier van controles zonder reumatoïde artritis (RA) en vier van RA-patiënten met een ziekteduur van minimaal 12 maanden. Alle patiënten waren ACPA-positief en de controles ACPA-negatief. De gebruikte data zijn afkomstig van [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf) 
 
-De analyse is uitgevoerd in R. Eerst is het humane referentiegenoom GRCh38.p14 (GCF_000001405.40) geïndexeerd met behulp van het R-package Rsubread (v2.24.0). Vervolgens zijn paired-end reads uitgelijnd tegen dit referentiegenoom, waarna BAM-bestanden zijn gegenereerd voor alle samples.
+De analyse is uitgevoerd in R (versie 4.5.2). Allereerst is het humane referentiegenoom GRCh38.p14 (accession number: GCF_000001405.40) geïndexeerd met behulp van het package Rsubread (versie 2.24.0), zodat de RNA-sequenties efficiënt konden worden uitgelijnd tegen het referentiegenoom. Vervolgens zijn de paired-end reads gealigneerd, waarna voor alle samples BAM-bestanden zijn gegenereerd.
 
-Op basis van de alignments is met featureCounts een gen-level countmatrix opgesteld met een GTF-annotatiebestand. Deze matrix vormde de input voor downstream analyse in DESeq2 (v1.50.2). Na normalisatie is een differentiële expressieanalyse uitgevoerd om genen te identificeren met significante expressieveranderingen tussen RA- en controlegroepen (padj < 0.05, |log2FC| > 1).
+Op basis van de alignments is met de functie featureCounts uit het package Rsubread (versie 2.24.0) een gen-level countmatrix opgesteld met behulp van een GTF-annotatiebestand. Deze countmatrix geeft weer hoeveel reads aan elk gen zijn toegewezen en vormde de input voor de differentiële expressieanalyse in DESeq2 (versie 1.50.2). Na normalisatie werd de genexpressie tussen de RA-groep en de controlegroep met elkaar vergeleken om genen te identificeren met een significant verhoogde of verlaagde expressie (gecorrigeerde p-waarde < 0,05 en |log2 fold change| > 1).
 
-Voor visualisatie is een volcano plot gegenereerd met EnhancedVolcano. Ook zijn significant differentieel tot expressie komende genen geselecteerd voor functionele verrijkingsanalyses. Gene Ontology (GO)-analyse is uitgevoerd met clusterProfiler, waarbij biologische processen, cellulaire componenten en moleculaire functies zijn onderzocht. KEGG pathway-analyse is gebruikt om verrijkte signaalroutes te identificeren. Visualisatie van pathways is uitgevoerd met pathview
+Om de resultaten van de differentiële expressieanalyse te visualiseren is een volcano plot gemaakt met behulp van het package EnhancedVolcano (versie 1.28.2). De significant differentieel tot expressie komende genen zijn vervolgens gebruikt voor functionele verrijkingsanalyses. Met behulp van het package clusterProfiler (versie 4.18.4) is een Gene Ontology (GO)-analyse uitgevoerd om de biologische processen, cellulaire componenten en moleculaire functies te identificeren die geassocieerd zijn met de significant veranderde genen. Ten slotte is een KEGG pathway-analyse uitgevoerd om de biologisch relevante en significant verrijkte signaalroutes te identificeren. De visualisatie van deze pathways is uitgevoerd met het package pathview (versie 1.50.0).
 
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ed966d2b-4611-4245-9f8a-6f4f55a9eceb" />
+
+
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/5463c166-ee00-4039-8755-9597e7b23626" />
+ 
 
   <em> Workflow van de transcriptomics-analyse van synoviumbiopten van RA-patiënten en controles.</em>
 </p>
