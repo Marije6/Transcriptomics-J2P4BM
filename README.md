@@ -4,6 +4,8 @@
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3693eb18-52cd-45f9-b115-4d4fa58cfdd2" />
 
+- `Assets/`
+
 - `data/ruw/` –  Bevat de ruwe sequencing datasets die als input dienen voor de analyse
 
 - `data/processed` - Bevat verwerkte datasets die zijn gegenereerd met behulp van scripts
