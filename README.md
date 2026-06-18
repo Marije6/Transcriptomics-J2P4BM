@@ -106,7 +106,7 @@ Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier con
 </table>
 </div>
 
-<sub>Figuur 5 & 6. KEGG Rheumatoid Arthritis pathway. Figuur 5 toont de standaard pathway, terwijl Figuur 6 de differentiële genexpressie tussen RA-patiënten en controles weergeeft. Rood duidt op verhoogde expressie en groen op verlaagde expressie.</sub>
+<sub>Figuur 9 & 10. KEGG Rheumatoid Arthritis pathway. Figuur 10 toont de standaard pathway, terwijl Figuur 9 de differentiële genexpressie tussen RA-patiënten en controles weergeeft. Rood duidt op verhoogde expressie en groen op verlaagde expressie.</sub>
 
 ---
 
