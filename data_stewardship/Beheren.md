@@ -1,64 +1,32 @@
-# Beheren met GitHub (versiebeheer)
+# Toepassing van de competentie Beheren met GitHub
 
-## Gebruik van GitHub
-GitHub is gebruikt als versiebeheersysteem en centrale plek voor het beheren van het transcriptomics-project. Hierdoor blijft alle code en documentatie overzichtelijk en reproduceerbaar.
+GitHub is binnen dit project gebruikt als beheersysteem voor het organiseren en onderhouden van de transcriptomics-analyse. Door GitHub te gebruiken blijven alle scripts, resultaten en documentatie overzichtelijk opgeslagen en kunnen wijzigingen worden bijgehouden.
 
----
+## A | Context
 
-## Repository-structuur
-De repository is logisch opgebouwd:
+Binnen bio-informatica is reproduceerbaarheid belangrijk. GitHub ondersteunt dit doordat alle bestanden centraal opgeslagen zijn en eenvoudig gedeeld kunnen worden. Hierdoor kunnen anderen de analyse volgen en opnieuw uitvoeren.
 
-- `data/` → ruwe en verwerkte data
-- `scripts/` → R-scripts voor analyse
-- `resultaten/` → figuren en output
-- `bronnen/` → literatuur
-- `data_stewardship/` → uitleg over beheer en data stewardship
+## B | Inrichting en inhoud van het beheersysteem
 
-Deze structuur maakt het project overzichtelijk en makkelijk te gebruiken voor anderen.
+Ik heb de repository ingericht met een duidelijke mappenstructuur:
 
----
+- `data/ruw/`
+- `data/processed/`
+- `scripts/`
+- `resultaten/`
+- `bronnen/`
+- `data_stewardship/`
 
-## Versiebeheer (Git)
-Tijdens het project is versiebeheer toegepast met Git:
+Daarnaast heb ik Git gebruikt voor versiebeheer door wijzigingen vast te leggen met commits. Hierdoor blijven eerdere versies bewaard en is de ontwikkeling van het project te volgen.
 
-- commits per analyse-stap (bijv. preprocessing, DESeq2, GO-analyse)
-- duidelijke commit messages (bijv. “added volcano plot”, “DESeq2 analysis”)
-- mogelijkheid om eerdere versies terug te zetten
+## C | Communicatie en rapportage
 
-Hierdoor blijft het project controleerbaar en transparant.
-
----
-
-## Reproduceerbaarheid
-Door het gebruik van scripts en GitHub kan iemand anders de analyse opnieuw uitvoeren en dezelfde resultaten verkrijgen.
-
----
-
-## Documentatie en gebruiksvriendelijkheid
-De repository bevat:
-- een README met uitleg
-- duidelijke bestandsnamen
-- gestructureerde mappen
-
-Hierdoor is het project makkelijk te begrijpen en te gebruiken door anderen.
-
----
+Om het project begrijpelijk te maken voor anderen heb ik een README toegevoegd met uitleg over de inhoud van de repository. De scripts bevatten commentaar en de bestandsnamen zijn duidelijk gekozen, zodat bestanden eenvoudig terug te vinden zijn.
 
 ## Niveau-inschatting
 
-### A | Context
-✔ Niveau I–II  
-Ik begrijp de rol van GitHub binnen data-analyse en research workflows.
+Dit onderdeel laat **niveau II** zien.
 
-### B | Inrichting en beheer
-✔ Niveau II  
-Ik gebruik GitHub voor versiebeheer en zorg voor een gestructureerde en controleerbare workflow.
-
-### C | Communicatie en rapportage
-✔ Niveau II  
-Ik documenteer mijn werk zodat anderen het project kunnen begrijpen en reproduceren.
-
----
-
-## Conclusie
-Dit onderdeel is afgerond op **niveau II**, omdat ik GitHub gebruik voor gestructureerd versiebeheer en reproduceerbaar onderzoek.
+- **A | Context:** Ik kan uitleggen waarom GitHub belangrijk is voor reproduceerbaar onderzoek.
+- **B | Inrichting:** Ik heb GitHub gebruikt als beheersysteem met een logische repositorystructuur en versiebeheer.
+- **C | Communicatie:** Ik heb mijn project gedocumenteerd met een README en overzichtelijke scripts, zodat anderen mijn werkwijze kunnen volgen.
