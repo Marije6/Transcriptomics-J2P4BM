@@ -35,15 +35,14 @@ Onderzoeksvraag moet nog!!
 
 **💗Methoden**
 
-**Dataset**
+Voor dit onderzoek is gebruikgemaakt van RNA-sequencing (RNA-seq) data afkomstig van synoviumbiopten. De dataset bestaat uit acht samples: vier van controles zonder reumatoïde artritis (RA) en vier van RA-patiënten met een ziekteduur van minimaal 12 maanden. Alle patiënten waren ACPA-positief en de controles ACPA-negatief. De gebruikte data zijn afkomstig van [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf) 
 
-Voor dit onderzoek zijn RNA-sequencing data gebruikt afkomstig van synoviumbiopten. De dataset bestaat uit 8 samples, waarvan 4 afkomstig zijn van personen zonder Reumatoïde Artritis als controlegroep en 4 van personen met RA (>12 maanden diagnose). De RA-patiënten zijn ACPA-positief getest, terwijl de controlegroep ACPA-negatief is. De data zijn afkomstig uit eerder uitgevoerd onderzoek [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf) De ruwe sequencingdata zijn opgeslagen in de map data/ruw/ van deze GitHub-repository.
+De analyse is uitgevoerd in R. Eerst is het humane referentiegenoom GRCh38.p14 (GCF_000001405.40) geïndexeerd met behulp van het R-package Rsubread (v2.24.0). Vervolgens zijn paired-end reads uitgelijnd tegen dit referentiegenoom, waarna BAM-bestanden zijn gegenereerd voor alle samples.
 
-De RNA-sequencingdata zijn verkregen met RNA-sequencing (RNA-seq), een techniek waarmee de hoeveelheid RNA-transcripten in een sample wordt bepaald. De gegenereerde reads zijn gemapt op het humane referentiegenoom, waardoor de reads aan de juiste genen konden worden toegewezen. Op basis hiervan is een genexpressiematrix opgesteld die als input diende voor de verdere analyses. De genexpressiematrix is geanalyseerd in R. Eerst zijn de data gecontroleerd en genormaliseerd om technische variatie tussen de samples te verminderen. Vervolgens is een differentiële genexpressie-analyse uitgevoerd om genen te identificeren die significant verschillen in expressie tussen de RA-groep en de controlegroep. De resultaten zijn weergegeven met onder andere een volcano plot en een heatmap?
+Op basis van de alignments is met featureCounts een gen-level countmatrix opgesteld met een GTF-annotatiebestand. Deze matrix vormde de input voor downstream analyse in DESeq2 (v1.50.2). Na normalisatie is een differentiële expressieanalyse uitgevoerd om genen te identificeren met significante expressieveranderingen tussen RA- en controlegroepen (padj < 0.05, |log2FC| > 1).
 
-Om de biologische betekenis van de gevonden differentieel geëxpresseerde genen te onderzoeken, zijn een Gene Ontology (GO)-analyse en een KEGG pathway-analyse uitgevoerd. De GO-analyse identificeert verrijkte biologische processen, moleculaire functies en cellulaire componenten. De KEGG pathway-analyse brengt metabole en signaaltransductieroutes in kaart die mogelijk betrokken zijn bij het ontstaan en de ontwikkeling van RA.
+Voor visualisatie is een volcano plot gegenereerd met EnhancedVolcano. Ook zijn significant differentieel tot expressie komende genen geselecteerd voor functionele verrijkingsanalyses. Gene Ontology (GO)-analyse is uitgevoerd met clusterProfiler, waarbij biologische processen, cellulaire componenten en moleculaire functies zijn onderzocht. KEGG pathway-analyse is gebruikt om verrijkte signaalroutes te identificeren. Visualisatie van pathways is uitgevoerd met pathview
 
-Alle analyses zijn uitgevoerd met R. De gebruikte scripts zijn te vinden in de map scripts/. De resultaten in resultaten/ en de gebruikte data in data/
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ed966d2b-4611-4245-9f8a-6f4f55a9eceb" />
 
