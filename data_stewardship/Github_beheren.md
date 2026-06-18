@@ -29,7 +29,9 @@ Ik heb GitHub gebruikt voor versiebeheer. Tijdens het project heb ik wijzigingen
 
 Met GitHub laat ik zien dat ik de competentie Beheren op niveau II beheers.
 
-💗| Context:** Ik begrijp waarom GitHub belangrijk is voor het overzichtelijk beheren van een onderzoeksproject.
-💗| Inrichting en inhoud:** Ik heb een duidelijke repositorystructuur gemaakt en gebruik GitHub om mijn project en versies te beheren.
-💗| Communicatie:** Met een README, logische mappenstructuur en duidelijke bestandsnamen zorg ik ervoor dat anderen mijn project kunnen begrijpen en gebruiken. 
+| Context:** Ik begrijp waarom GitHub belangrijk is voor het overzichtelijk beheren van een onderzoeksproject.
+
+| Inrichting en inhoud:** Ik heb een duidelijke repositorystructuur gemaakt en gebruik GitHub om mijn project en versies te beheren.
+
+| Communicatie:** Met een README, logische mappenstructuur en duidelijke bestandsnamen zorg ik ervoor dat anderen mijn project kunnen begrijpen en gebruiken. 
 
