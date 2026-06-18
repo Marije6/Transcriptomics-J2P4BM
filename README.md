@@ -56,6 +56,7 @@ Voor visualisatie is een volcano plot gegenereerd met EnhancedVolcano. Ook zijn 
 De volcano plot [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png) toont meerdere significant differentieel geëxprimeerde genen tussen RA-patiënten en controles. Zowel verhoogde als verlaagde genexpressie werd waargenomen. Daarnaast liet de KEGG-analyse zien dat genen betrokken bij immuun- en ontstekingsprocessen differentieel tot expressie kwamen.
 
 <img width="1833" height="791" alt="Vulcano Plot" src="https://github.com/user-attachments/assets/cdf04c7c-db35-4032-9e3d-5a88f7467582" />
+<img width="1918" height="990" alt="GO-analyse" src="https://github.com/user-attachments/assets/e063c510-8c18-4256-9e2c-3295852eb341" />
 
 
 <p align="center">
