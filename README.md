@@ -69,12 +69,9 @@ De volcano plot [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png) toont me
   <b>Rechts:</b> Dotplot van de KEGG pathway-analyse
 </p
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/44ddae3f-a4d9-4e0a-91ae-3adc5f77557b" alt="KEGG-pathway van Reumatoïde Artritis (RA)" width="450">
-  <img src="https://github.com/user-attachments/assets/ec4206f9-92fa-49ca-9100-981361dee566" alt="Referentie KEGG-pathway van Reumatoïde Artritis" width="450">
-</p>
 
 
+<div align="center">
 
 <table>
   <tr>
