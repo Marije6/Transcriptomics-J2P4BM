@@ -55,10 +55,10 @@ Voor visualisatie is een volcano plot gegenereerd met EnhancedVolcano. Ook zijn 
 ---
 
 ### 🔬 Vulcano plot
-De vulcano plot [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png) toont meerdere significant differentieel geëxprimeerde genen tussen RA-patiënten en controles. Zowel verhoogde als verlaagde genexpressie werd waargenomen.
+De volcano plot [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png) toont de resultaten van de differentiële genexpressieanalyse tussen RA-patiënten en controles. De x-as geeft de log₂ fold change weer en de y-as de negatieve log₁₀ van de aangepaste p-waarde. Genen die zowel een significante expressieverandering (padj < 0,05) als een absolute log₂ fold change groter dan 1 vertonen, zijn rood weergegeven. Positieve log₂ fold change-waarden duiden op hogere expressie in de RA-groep, terwijl negatieve waarden wijzen op lagere expressie ten opzichte van de controlegroep.
 
 <img width="1833" height="791" alt="Vulcano Plot" src="https://github.com/user-attachments/assets/cdf04c7c-db35-4032-9e3d-5a88f7467582" />
-<sub><b>Figuur 1.</b> Vulcano plot van significant differentieel geexpermeerde genen tussen RA-patienten en controles. (p.adjust).</sub>
+<sub><b>Figuur 1.</b> Volcano plot van de differentiële genexpressieanalyse tussen de RA-groep en de controlegroep. Genen met een significante expressieverandering (padj < 0,05 en |log₂ fold change| > 1) zijn rood weergegeven.</sub>
 
 ---
 
