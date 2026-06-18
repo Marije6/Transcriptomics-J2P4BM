@@ -113,3 +113,9 @@ Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier con
 
 **💗Conclusie**
 ---
+
+In dit onderzoek is met behulp van RNA-sequencing de genexpressie in synoviumbiopten van patiënten met reumatoïde artritis (RA) vergeleken met die van gezonde controles. De differentiële genexpressieanalyse liet zien dat meerdere genen significant verschillend tot expressie komen tussen beide groepen. Daarnaast toonden de Gene Ontology (GO)- en KEGG pathway-analyses aan dat deze genen betrokken zijn bij biologische processen en signaalroutes die samenhangen met ontsteking en immuunactivatie, wat aansluit bij de bekende pathogenese van RA.
+
+De resultaten bevestigen dat transcriptomics een waardevolle methode is om moleculaire veranderingen bij RA in kaart te brengen en kunnen bijdragen aan een beter begrip van de ziekte. Dit sluit aan bij eerder onderzoek, waarin eveneens verstoringen in immuun- en ontstekingsgerelateerde pathways zijn beschreven bij RA-patiënten.
+
+Een belangrijke beperking van dit onderzoek is de kleine steekproefomvang van acht samples. Hierdoor is de statistische betrouwbaarheid beperkt en kunnen de resultaten niet zonder meer worden gegeneraliseerd naar de gehele RA-populatie. Aanbevolen wordt om vervolgonderzoek uit te voeren met grotere en meer diverse patiëntengroepen. Daarnaast kan validatie van de gevonden genen met aanvullende technieken, zoals qPCR of eiwitexpressieanalyses, de betrouwbaarheid van de resultaten vergroten. Dergelijk vervolgonderzoek kan bijdragen aan de identificatie van nieuwe biomarkers en potentiële therapeutische aangrijpingspunten voor reumatoïde artritis.
