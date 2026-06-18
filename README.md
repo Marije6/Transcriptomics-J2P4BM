@@ -28,9 +28,8 @@
 
 Reumatoïde artritis (RA) is een chronische auto-immuunziekte waarbij het immuunsysteem gezond gewrichtsweefsel aanvalt. Bij RA kan je ook last hebben van synovitis. Dit is een ontsteking van het gewrichtsslijmvlies (synovium), die kan leiden tot pijn, stijfheid en gewrichtsschade. De precieze oorzaak van RA is nog niet helemaal bekend. Wel zijn er verschillende factoren die invloed hebben zoals genetische aanleg en omgevingsfactoren. Met behulp van transcriptomics kan worden onderzocht welke genen actief zijn in gezond en ziek weefsel.[Wang et al., 2022](Bronnen/Wang%20et%20al.,%202022.pdf) Door genexpressiepatronen te vergelijken tussen patiënten met RA en gezonde controles kunnen genen en biologische processen worden geïdentificeerd die betrokken zijn bij het ziekteproces. Dit levert meer inzicht op in de moleculaire mechanismen achter RA en kan bijdragen aan de ontwikkeling van betere diagnostische methoden en behandelingen. [Dessein et al., 2022](Bronnen/Dessein%20et%20al.,%202022.pdf)
 
-In dit project wordt een transcriptomicsanalyse uitgevoerd op RNA-sequencingdata van synoviumbiopten van 8 vrouwelijke patiënten. 4 hiervan met RA en vier gezonde patiënten als controles. Met behulp van R worden differentieel tot expressie komende genen geïdentificeerd en wordt met een GO-analyse onderzocht welke biologische pathways een rol spelen bij het ontstaan en de ontwikkeling van reumatoïde artritis.[Platzer et al., 2019](Bronnen/Platzer%20et%20al.,%202019.pdf)
+In dit project wordt een transcriptomicsanalyse uitgevoerd op RNA-sequencingdata van synoviumbiopten van 8 vrouwelijke patiënten. 4 hiervan met RA en vier gezonde patiënten als controles. De onderzoeksvraag is dan ook:  "Welke genen en biologische pathways zijn differentieel actief in het synovium van RA-patiënten ten opzichte van gezonde controles". Met behulp van R worden differentieel tot expressie komende genen geïdentificeerd en wordt met een GO-analyse onderzocht welke biologische pathways een rol spelen bij het ontstaan en de ontwikkeling van reumatoïde artritis.[Platzer et al., 2019](Bronnen/Platzer%20et%20al.,%202019.pdf)
 
-Onderzoeksvraag moet nog!!
 
 
 ---
@@ -119,8 +118,14 @@ Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier con
 **💗Conclusie**
 ---
 
-In dit onderzoek is met behulp van RNA-sequencing de genexpressie in synoviumbiopten van patiënten met reumatoïde artritis (RA) vergeleken met die van gezonde controles. De differentiële genexpressieanalyse liet zien dat meerdere genen significant verschillend tot expressie komen tussen beide groepen. Daarnaast toonden de Gene Ontology (GO)- en KEGG pathway-analyses aan dat deze genen betrokken zijn bij biologische processen en signaalroutes die samenhangen met ontsteking en immuunactivatie, wat aansluit bij de bekende pathogenese van RA.
+In dit onderzoek is met behulp van RNA-sequencing de genexpressie in synoviumbiopten van patiënten met reumatoïde artritis (RA) vergeleken met gezonde controles. De differentiële genexpressieanalyse liet zien dat meerdere genen significant verschillend tot expressie komen tussen beide groepen.
+GO- en KEGG-enrichmentanalyses toonden aan dat deze genen voornamelijk betrokken zijn bij immuun- en ontstekingsgerelateerde processen. Met name lymfocytdifferentiatie, T-celactivatie en B-celactivatie waren sterk verrijkt. Daarnaast werden belangrijke signaalroutes geïdentificeerd, waaronder de MAPK-, TNF-, NF-κB-, IL-17- en NOD-like receptor pathways. Deze pathways spelen een rol in ontstekingsreacties en immuunregulatie.
 
-De resultaten bevestigen dat transcriptomics een waardevolle methode is om moleculaire veranderingen bij RA in kaart te brengen en kunnen bijdragen aan een beter begrip van de ziekte. Dit sluit aan bij eerder onderzoek, waarin eveneens verstoringen in immuun- en ontstekingsgerelateerde pathways zijn beschreven bij RA-patiënten.
+De onderzoeksvraag “Welke genen en biologische pathways zijn differentieel actief in het synovium van RA-patiënten ten opzichte van gezonde controles?” kan hiermee worden beantwoord: er zijn duidelijke verschillen in genexpressie aanwezig, waarbij vooral immuun- en ontstekingsgerelateerde genen en pathways verrijkt zijn in de RA-groep.
 
-Een belangrijke beperking van dit onderzoek is de kleine steekproefomvang van acht samples. Hierdoor is de statistische betrouwbaarheid beperkt en kunnen de resultaten niet zonder meer worden gegeneraliseerd naar de gehele RA-populatie. Aanbevolen wordt om vervolgonderzoek uit te voeren met grotere en meer diverse patiëntengroepen. Daarnaast kan validatie van de gevonden genen met aanvullende technieken, zoals qPCR of eiwitexpressieanalyses, de betrouwbaarheid van de resultaten vergroten. Dergelijk vervolgonderzoek kan bijdragen aan de identificatie van nieuwe biomarkers en potentiële therapeutische aangrijpingspunten voor reumatoïde artritis.
+Een beperking van dit onderzoek is de kleine steekproefomvang van 8, waardoor de statistische betrouwbaarheid beperkt is. Vervolgonderzoek een grotere steekproefomvang wordt aanbevolen.
+
+
+
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/fe3ab7cb-34f0-4b38-bc36-29b8aadd2b3c" />
+
