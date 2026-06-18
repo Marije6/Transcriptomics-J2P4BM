@@ -57,6 +57,7 @@ Alle analyses zijn uitgevoerd met R. De gebruikte scripts zijn te vinden in de m
 De volcano plot [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png) toont meerdere significant differentieel geëxprimeerde genen tussen RA-patiënten en controles. Zowel verhoogde als verlaagde genexpressie werd waargenomen. Daarnaast liet de KEGG-analyse zien dat genen betrokken bij immuun- en ontstekingsprocessen differentieel tot expressie kwamen.
 
 
+
 <img width="1833" height="791" alt="Vulcano Plot" src="https://github.com/user-attachments/assets/cdf04c7c-db35-4032-9e3d-5a88f7467582" />
 
 Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier controles liet verschillen in genexpressie zien binnen de KEGG-pathway voor reumatoïde artritis ([Figuur 9](Resultaten/Figuur%209.%20KEGG-pathway%20van%20Reumato%C3%AFde%20Artritis%20(RA).png)). Meerdere ontstekingsgerelateerde genen, waaronder **IL1A**, **IL1B**, **CD28** en **MMP13**, waren verhoogd tot expressie gebracht bij RA, terwijl andere genen een verlaagde expressie vertoonden. Deze resultaten wijzen op activatie van immuun- en ontstekingsprocessen die bijdragen aan synovitis, gewrichtsschade en botafbraak, kenmerkende eigenschappen van reumatoïde artritis. De referentiepathway is weergegeven in [Figuur 10](Resultaten/Figuur%2010.%20Referentie%20KEGG-pathway%20van%20Reumato%C3%AFde%20Artritis..png).
