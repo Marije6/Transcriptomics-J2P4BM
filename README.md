@@ -28,6 +28,8 @@ Reumatoïde artritis (RA) is een chronische auto-immuunziekte waarbij het immuun
 
 In dit project wordt een transcriptomicsanalyse uitgevoerd op RNA-sequencingdata van synoviumbiopten van vier patiënten met RA en vier gezonde controles. Met behulp van R worden differentieel tot expressie komende genen geïdentificeerd en wordt met een Gene Ontology-analyse onderzocht welke biologische pathways een rol spelen bij het ontstaan en de ontwikkeling van reumatoïde artritis.[Platzer et al., 2019](Bronnen/Platzer%20et%20al.,%202019.pdf)
 
+Onderzoeksvraag moet nog!!
+
 
 ---
 
@@ -35,7 +37,13 @@ In dit project wordt een transcriptomicsanalyse uitgevoerd op RNA-sequencingdata
 
 **Dataset**
 
-Voor dit onderzoek zijn RNA-sequencing data gebruikt afkomstig van synoviumbiopten. De dataset bestaat uit 8 samples, waarvan 4 afkomstig zijn van personen zonder Reumatoïde Artritis (controle) en 4 van personen met gevestigde RA (>12 maanden diagnose). De RA-patiënten zijn ACPA-positief getest, terwijl de controlegroep ACPA-negatief is. De data zijn afkomstig uit eerder uitgevoerd onderzoek [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf)
+Voor dit onderzoek zijn RNA-sequencing data gebruikt afkomstig van synoviumbiopten. De dataset bestaat uit 8 samples, waarvan 4 afkomstig zijn van personen zonder Reumatoïde Artritis als controlegroep en 4 van personen met RA (>12 maanden diagnose). De RA-patiënten zijn ACPA-positief getest, terwijl de controlegroep ACPA-negatief is. De data zijn afkomstig uit eerder uitgevoerd onderzoek [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf) De ruwe sequencingdata zijn opgeslagen in de map data/ruw/ van deze GitHub-repository.
+
+De RNA-sequencingdata zijn verkregen met RNA-sequencing (RNA-seq), een techniek waarmee de hoeveelheid RNA-transcripten in een sample wordt bepaald. De gegenereerde reads zijn gemapt op het humane referentiegenoom, waardoor de reads aan de juiste genen konden worden toegewezen. Op basis hiervan is een genexpressiematrix opgesteld die als input diende voor de verdere analyses. De genexpressiematrix is geanalyseerd in R. Eerst zijn de data gecontroleerd en genormaliseerd om technische variatie tussen de samples te verminderen. Vervolgens is een differentiële genexpressie-analyse uitgevoerd om genen te identificeren die significant verschillen in expressie tussen de RA-groep en de controlegroep. De resultaten zijn weergegeven met onder andere een volcano plot en een heatmap?
+
+Om de biologische betekenis van de gevonden differentieel geëxpresseerde genen te onderzoeken, zijn een Gene Ontology (GO)-analyse en een KEGG pathway-analyse uitgevoerd. De GO-analyse identificeert verrijkte biologische processen, moleculaire functies en cellulaire componenten. De KEGG pathway-analyse brengt metabole en signaaltransductieroutes in kaart die mogelijk betrokken zijn bij het ontstaan en de ontwikkeling van RA.
+
+Alle analyses zijn uitgevoerd met R. De gebruikte scripts zijn te vinden in de map scripts/. De resultaten in resultaten/ en de gebruikte data in data/
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ed966d2b-4611-4245-9f8a-6f4f55a9eceb" />
 
