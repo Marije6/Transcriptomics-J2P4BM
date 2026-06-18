@@ -65,11 +65,14 @@ De volcano plot [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png) toont me
   <img src="https://github.com/user-attachments/assets/846db693-43b7-4cf1-809d-5fa5bc70716a" alt="Barplot KEGG result" width="350">
   <img src="https://github.com/user-attachments/assets/2e721ee1-5bb4-490a-8e47-9bfce5d7d6d8" alt="Dotplot KEGG result" width="350">
 </p>
-
 <p align="center">
-  <b>Links:</b> Barplot van de KEGG pathway-analyse &nbsp;&nbsp;&nbsp;
-  <b>Rechts:</b> Dotplot van de KEGG pathway-analyse
+  <b>Figuur 4:</b> Barplot van de KEGG pathway-analyse &nbsp;&nbsp;&nbsp;
+  <b>Figuur 3:</b> Dotplot van de KEGG pathway-analyse
 </p
+
+
+De barplot en dotplot van de KEGG pathway-analyse lieten zien dat verschillende ontstekings- en immuungerelateerde pathways significant verrijkt waren bij RA. De meest verrijkte pathways waren onder andere de MAPK, TNF, NF-kappa B, IL-17 en NOD-like receptor signaling pathways ([Figuur 3](./Resultaten/Figuur%203.%20Dotplot%20Kegg%20result.png) en [Figuur 4](./Resultaten/Figuur%204.%20Barplot%20Kegg%20result.png)).
+
 
 
 
