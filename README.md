@@ -128,8 +128,9 @@ De onderzoeksvraag “Welke genen en biologische pathways zijn differentieel act
 Een beperking van dit onderzoek is de kleine steekproefomvang van 8, waardoor de statistische betrouwbaarheid beperkt is. Vervolgonderzoek een grotere steekproefomvang wordt aanbevolen.
 
 
-**💗Bronnen**
 
+**💗Bronnen**
+---
 De wetenschappelijke artikelen die voor dit project zijn gebruikt, zijn terug te vinden in de map `bronnen/`.
 
 
