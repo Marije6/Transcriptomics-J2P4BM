@@ -32,4 +32,4 @@ Open data maakt het mogelijk dat andere onderzoekers resultaten kunnen controler
 
 💗 **Niveau inschatting**
 
-Dit onderdeel laat **niveau II** zien. Ik beheer mijn data op een gestructureerde manier en zorg ervoor dat het project overzichtelijk en reproduceerbaar is.
+Dit onderdeel laat **niveau I** zien. Ik beheer mijn data op een gestructureerde manier en zorg ervoor dat het project overzichtelijk en reproduceerbaar is.
