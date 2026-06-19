@@ -36,14 +36,14 @@ In dit project wordt een transcriptomicsanalyse uitgevoerd op RNA-sequencingdata
 
 **💗Methoden**
 
-Voor dit onderzoek is gebruikgemaakt van RNA-sequencing (RNA-seq) data afkomstig van synoviumbiopten. De dataset bestaat uit acht samples van vrouwelijke patiënten: vier van controles zonder reumatoïde artritis (RA) en vier van RA-patiënten met een ziekteduur van minimaal 12 maanden. Alle patiënten waren ACPA-positief en de controles ACPA-negatief. De gebruikte data zijn afkomstig van [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf) 
 
-De analyse is uitgevoerd in R (versie 4.5.2). Allereerst is het humane referentiegenoom GRCh38.p14 (accession number: GCF_000001405.40) geïndexeerd met behulp van het package Rsubread (versie 2.24.0), zodat de RNA-sequenties efficiënt konden worden uitgelijnd tegen het referentiegenoom. Vervolgens zijn de paired-end reads gealigneerd, waarna voor alle samples BAM-bestanden zijn gegenereerd.
+Voor dit onderzoek is gebruikgemaakt van RNA-sequencing (RNA-seq)-data afkomstig van synoviumbiopten van acht vrouwelijke patiënten: vier met reumatoïde artritis (RA) en vier gezonde controles. De RA-patiënten hadden een ziekteduur van minimaal 12 maanden en waren ACPA-positief; de controles waren ACPA-negatief. De dataset is afkomstig van  [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf) 
 
-Op basis van de alignments is met de functie featureCounts uit het package Rsubread (versie 2.24.0) een gen-level countmatrix opgesteld met behulp van een GTF-annotatiebestand. Deze countmatrix geeft weer hoeveel reads aan elk gen zijn toegewezen en vormde de input voor de differentiële expressieanalyse in DESeq2 (versie 1.50.2). Na normalisatie werd de genexpressie tussen de RA-groep en de controlegroep met elkaar vergeleken om genen te identificeren met een significant verhoogde of verlaagde expressie (gecorrigeerde p-waarde < 0,05 en |log2 fold change| > 1).
+De analyse is uitgevoerd in R (versie 4.5.2). Het humane referentiegenoom GRCh38.p14 werd geïndexeerd met Rsubread (versie 2.24.0), waarna de paired-end RNA-sequenties werden gealigneerd. Met featureCounts werd vervolgens een gen-level countmatrix opgesteld op basis van een GTF-annotatiebestand.
 
-Om de resultaten van de differentiële expressieanalyse te visualiseren is een volcano plot gemaakt met behulp van het package EnhancedVolcano (versie 1.28.2). De significant differentieel tot expressie komende genen zijn vervolgens gebruikt voor functionele verrijkingsanalyses. Met behulp van het package clusterProfiler (versie 4.18.4) is een Gene Ontology (GO)-analyse uitgevoerd om de biologische processen, cellulaire componenten en moleculaire functies te identificeren die geassocieerd zijn met de significant veranderde genen. Ten slotte is een KEGG pathway-analyse uitgevoerd om de biologisch relevante en significant verrijkte signaalroutes te identificeren. De visualisatie van deze pathways is uitgevoerd met het package pathview (versie 1.50.0).
+De countmatrix vormde de input voor de differentiële expressieanalyse met DESeq2 (versie 1.50.2). Na normalisatie werd de genexpressie tussen de RA- en controlegroep vergeleken. Genen met een gecorrigeerde p-waarde < 0,05 en een |log₂ fold change| > 1 werden als significant beschouwd.
 
+De resultaten zijn gevisualiseerd met een volcano plot (EnhancedVolcano, versie 1.28.2). Vervolgens zijn de significant differentieel geëxpresseerde genen geanalyseerd met Gene Ontology (GO)- en KEGG-pathwayanalyses met clusterProfiler (versie 4.18.4). De verrijkte KEGG-pathways zijn ten slotte gevisualiseerd met pathview (versie 1.50.0).
 
 
 
