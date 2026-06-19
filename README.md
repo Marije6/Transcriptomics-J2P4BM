@@ -135,8 +135,11 @@ Tijdens dit project is gebruikgemaakt van ChatGPT als ondersteunend hulpmiddel. 
 ♡ het genereren van afbeeldingen voor het voorblad, de workflow en de banner aan het einde van de GitHub-pagina
   
 ♡ het verbeteren, inkorten en controleren van zelfgeschreven teksten op spelling, grammatica en leesbaarheid;
+
 ♡ ondersteuning bij het interpreteren van resultaten, waaronder de volcano plot, GO-analyse, KEGG-pathwayanalyse, barplot en dotplot;
+
 ♡ het genereren en verbeteren van Markdown- en HTML-code voor de opmaak van de GitHub-pagina;
+
 ♡ ondersteuning tijdens het programmeren in R, waaronder het genereren, controleren en optimaliseren van code en het helpen opsporen en oplossen van programmeerfouten (errors).
 
 ChatGPT is uitsluitend gebruikt als ondersteunend hulpmiddel. De uiteindelijke keuzes met betrekking tot de analyses, interpretatie van de resultaten en de inhoud van dit project zijn door mij gemaakt.
