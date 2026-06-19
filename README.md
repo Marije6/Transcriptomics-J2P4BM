@@ -126,6 +126,10 @@ De onderzoeksvraag “Welke genen en biologische pathways zijn differentieel act
 Een beperking van dit onderzoek is de kleine steekproefomvang van 8, waardoor de statistische betrouwbaarheid beperkt is. Vervolgonderzoek een grotere steekproefomvang wordt aanbevolen.
 
 
+**💗AI-Disclaimer**
+---
+In dit project is gebruik van AI gemaakt. ChatGPT is gebruikt om voor het genereren van afbeeldingen zoals het voorblad, de workflow en de banner op het einde. Daarnaast is ChatGPT gebruikt voor het verbeteren en inkorten van zelfgeschreven tekst. Ook is ChatGPT gebruikt met het helpen analyseren van plots, zoals de dotplots, barplot, vulcano plot en de kegg-analyse. ChatGPT is ook gebruikt met de github pagina. Het heeft code's gegenereerd voor het invoegen en netjes maken van afbeeldingen en tekst. 
 
+Tijdens het programmeren in R is ChatGPT gebruikt voor het genereren en controleren van codes. Bij het hebben vab erros heeft chatgpt geholpen met oplossen hiervan. Ook heeft ChatGPT het zelfgemaakte script verbeterd en gesorteerd zodat dit overzichtelijker is. 
 <img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/fe3ab7cb-34f0-4b38-bc36-29b8aadd2b3c" />
 
