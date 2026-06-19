@@ -128,6 +128,10 @@ De onderzoeksvraag “Welke genen en biologische pathways zijn differentieel act
 Een beperking van dit onderzoek is de kleine steekproefomvang van 8, waardoor de statistische betrouwbaarheid beperkt is. Vervolgonderzoek een grotere steekproefomvang wordt aanbevolen.
 
 
+**💗Bronnen**
+
+
+
 **💗AI-Disclaimer**
 ---
 Tijdens dit project is gebruikgemaakt van ChatGPT als ondersteunend hulpmiddel. ChatGPT is gebruikt voor:
