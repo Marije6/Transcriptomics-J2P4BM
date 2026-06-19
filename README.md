@@ -4,7 +4,7 @@
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3693eb18-52cd-45f9-b115-4d4fa58cfdd2" />
 
-- `Assets/`
+- `Assets/` - overige documtenten 
 
 - `data/ruw/` –  Bevat de ruwe sequencing datasets die als input dienen voor de analyse
 
@@ -18,7 +18,7 @@
 
 - `README.md` - Overzicht en uitleg van het project, inclusief doel, methode en resultaten
 
-- `data_stewardship/` - Voor de competentie beheren. 
+- `data_stewardship/` - Voor de competentie beheren en uitleg over GitHub. 
 
 
 ---
