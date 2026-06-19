@@ -6,21 +6,21 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3693eb18-52cd-45f9-b115-4d4fa58cfdd2" />
 
 
-- `Assets/` - overige documtenten 
+♡ `Assets/` - overige documtenten 
 
-- `data/ruw/` –  Bevat de ruwe sequencing datasets die als input dienen voor de analyse
+♡`data/ruw/` –  Bevat de ruwe sequencing datasets die als input dienen voor de analyse
 
-- `data/processed` - Bevat verwerkte datasets die zijn gegenereerd met behulp van scripts
+♡ `data/processed` - Bevat verwerkte datasets die zijn gegenereerd met behulp van scripts
 
-- `scripts/` – R -scripts voor data-analyse, verwerking en visualisatie
+♡ `scripts/` – R -scripts voor data-analyse, verwerking en visualisatie
 
-- `resultaten/` - Output van de analyse, zoals grafieken, tabellen en figuren
+♡ `resultaten/` - Output van de analyse, zoals grafieken, tabellen en figuren
 
-- `bronnen/` - Referenties en literatuur gebruikt binnen het project
+♡ `bronnen/` - Referenties en literatuur gebruikt binnen het project
 
-- `README.md` - Overzicht en uitleg van het project, inclusief doel, methode en resultaten
+♡ `README.md` - Overzicht en uitleg van het project, inclusief doel, methode en resultaten
 
-- `data_stewardship/` - Voor de competentie beheren en uitleg over GitHub. 
+♡ `data_stewardship/` - Voor de competentie beheren en uitleg over GitHub. 
 
 
 ---
@@ -130,8 +130,15 @@ Een beperking van dit onderzoek is de kleine steekproefomvang van 8, waardoor de
 
 **💗AI-Disclaimer**
 ---
-In dit project is gebruik van AI gemaakt. ChatGPT is gebruikt om voor het genereren van afbeeldingen zoals het voorblad, de workflow en de banner op het einde. Daarnaast is ChatGPT gebruikt voor het verbeteren en inkorten van zelfgeschreven tekst. Ook is ChatGPT gebruikt met het helpen analyseren van plots, zoals de dotplots, barplot, vulcano plot en de kegg-analyse. ChatGPT is ook gebruikt met de github pagina. Het heeft code's gegenereerd voor het invoegen en netjes maken van afbeeldingen en tekst. 
+Tijdens dit project is gebruikgemaakt van ChatGPT als ondersteunend hulpmiddel. ChatGPT is gebruikt voor:
 
-Tijdens het programmeren in R is ChatGPT gebruikt voor het genereren en controleren van codes. Bij het hebben vab erros heeft chatgpt geholpen met oplossen hiervan. Ook heeft ChatGPT het zelfgemaakte script verbeterd en gesorteerd zodat dit overzichtelijker is. 
+♡ het genereren van afbeeldingen voor het voorblad, de workflow en de banner aan het einde van de GitHub-pagina
+  
+♡ het verbeteren, inkorten en controleren van zelfgeschreven teksten op spelling, grammatica en leesbaarheid;
+♡ ondersteuning bij het interpreteren van resultaten, waaronder de volcano plot, GO-analyse, KEGG-pathwayanalyse, barplot en dotplot;
+♡ het genereren en verbeteren van Markdown- en HTML-code voor de opmaak van de GitHub-pagina;
+♡ ondersteuning tijdens het programmeren in R, waaronder het genereren, controleren en optimaliseren van code en het helpen opsporen en oplossen van programmeerfouten (errors).
+
+ChatGPT is uitsluitend gebruikt als ondersteunend hulpmiddel. De uiteindelijke keuzes met betrekking tot de analyses, interpretatie van de resultaten en de inhoud van dit project zijn door mij gemaakt.
 <img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/fe3ab7cb-34f0-4b38-bc36-29b8aadd2b3c" />
 
