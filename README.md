@@ -1,5 +1,5 @@
 <h1 align="center">
-  💗 Transcriptomics 💗
+  💗Transcriptomicsanalyse van synoviumbiopten bij reumatoïde artritis: identificatie van differentieel geëxpresseerde genen en biologische pathways 💗
 </h1>
 
 
