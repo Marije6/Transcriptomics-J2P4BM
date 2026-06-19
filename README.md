@@ -129,7 +129,21 @@ Een beperking van dit onderzoek is de kleine steekproefomvang van 8, waardoor de
 
 
 **💗Bronnen**
+Gabriel, S. E. (2001). THE EPIDEMIOLOGY OF RHEUMATOID ARTHRITIS. Rheumatic Disease
+Clinics of North America, 27(2), 269-281. https://doi.org/https://doi.org/10.1016/S0889-
+857X(05)70201-5
 
+Majithia, V., & Geraci, S. A. (2007). Rheumatoid Arthritis: Diagnosis and Management. The
+American Journal of Medicine, 120(11), 936-939.
+https://doi.org/https://doi.org/10.1016/j.amjmed.2007.04.005
+
+Platzer, A., Nussbaumer, T., Karonitsch, T., Smolen, J. S., & Aletaha, D. (2019). Analysis of gene
+expression in rheumatoid arthritis and related conditions offers insights into sex-bias,
+gene biotypes and co-expression patterns. PLoS ONE 14 (7).
+https://doi.org/https://doi.org/10.1371/journal.
+
+Radu, A.-F., & Bungau, S. G. (2021). Management of Rheumatoid Arthritis: An Overview. Cells
+2021, 10. https://doi.org/https://doi.org/10.3390/cells10112857
 
 
 **💗AI-Disclaimer**
