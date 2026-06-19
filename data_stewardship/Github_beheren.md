@@ -16,22 +16,12 @@ Om het project overzichtelijk te houden heb ik een vaste mappenstructuur gebruik
 - `data_stewardship/` voor de documentatie over beheren
 
 Door deze indeling kan iemand anders snel vinden waar de data, scripts en resultaten staan.
+Met duidelijke bestandsnamen zorg ik ervoor dat anderen mijn project kunnen begrijpen en gebruiken. 
 
-💗**Reproduceerbaarheid**
+Tijdens dit project is gewerkt volgens de principes van goed data- en projectbeheer om de reproduceerbaarheid en kwaliteit van de analyses te waarborgen. De projectbestanden zijn overzichtelijk georganiseerd in een vaste mappenstructuur, waarbij onderscheid is gemaakt tussen ruwe data, verwerkte data, R-scripts, resultaten en figuren.
 
-Mijn GitHub-pagina draagt bij aan de reproduceerbaarheid van het onderzoek. De scripts, resultaten en documentatie zijn samen opgeslagen, waardoor iemand anders dezelfde stappen kan volgen en de analyse opnieuw kan uitvoeren. In de README staat uitgelegd hoe het project is opgebouwd en welke bestanden waarvoor gebruikt worden.
+Voor het versiebeheer is gebruikgemaakt van Git en GitHub. Hierdoor konden wijzigingen in scripts worden bijgehouden, eerdere versies worden teruggezet en de volledige workflow overzichtelijk worden gedocumenteerd. Alle scripts zijn voorzien van duidelijke bestandsnamen en commentaar, zodat de analyses eenvoudig zijn te volgen en te reproduceren.
 
-💗**Versiebeheer**
+Bij de uitvoering van het project is rekening gehouden met de richtlijnen voor reproduceerbaar onderzoek. De gebruikte software, R-packages en versies zijn vastgelegd en de analysemethoden zijn beschreven in deze repository. Door deze werkwijze zijn de resultaten controleerbaar en kan de analyse door anderen opnieuw worden uitgevoerd.
 
-Ik heb GitHub gebruikt voor versiebeheer. Tijdens het project heb ik wijzigingen opgeslagen met commits. Hierdoor blijven eerdere versies bewaard en kan ik altijd terugkijken welke aanpassingen zijn gedaan. Dit maakt het project overzichtelijk en voorkomt dat werk verloren gaat.
-
-💗**Competentie Beheren**
-
-Met GitHub laat ik zien dat ik de competentie Beheren op niveau II beheers.
-
-| **Context:** Ik begrijp waarom GitHub belangrijk is voor het overzichtelijk beheren van een onderzoeksproject.
-
-| **Inrichting en inhoud:** Ik heb een duidelijke repositorystructuur gemaakt en gebruik GitHub om mijn project en versies te beheren.
-
-| **Communicatie:** Met een README, logische mappenstructuur en duidelijke bestandsnamen zorg ik ervoor dat anderen mijn project kunnen begrijpen en gebruiken. 
-
+Door gestructureerd versiebeheer, duidelijke documentatie en een consistente projectopzet heb ik als data steward de projectgegevens beheerd en gezorgd voor een transparante en reproduceerbare onderzoeksworkflow.
