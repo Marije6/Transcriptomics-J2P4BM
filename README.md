@@ -65,7 +65,7 @@ De analyse laat zien dat meerdere genen differentieel tot expressie komen tussen
 
 
 <img width="1833" height="791" alt="Vulcano Plot" src="https://github.com/user-attachments/assets/cdf04c7c-db35-4032-9e3d-5a88f7467582" />
-<sub><b>Figuur 1.</b> Volcano plot van de differentiële genexpressieanalyse tussen de RA-groep en de controlegroep. Genen met een significante expressieverandering (padj < 0,05 en |log₂ fold change| > 1) zijn rood weergegeven.</sub>
+<sub><b>Figuur 1.</b> Volcano plot van de differentiële genexpressieanalyse tussen RA-patiënten en controles. De x-as toont de log₂ fold change en de y-as de −log₁₀ van de adjusted p-value. Positieve log₂ fold change-waarden geven een hogere genexpressie in RA-patiënten ten opzichte van controles weer, terwijl negatieve waarden een lagere genexpressie aangeven. De verticale stippellijnen geven de grenzen van |log₂ fold change| = 1 weer. Rode stippen zijn genen die zowel voldoen aan de ingestelde grens voor statistische significantie als aan de grens voor de log₂ fold change. Groene stippen voldoen aan de grens voor de log₂ fold change, maar niet aan de grens voor statistische significantie. Grijze stippen voldoen aan geen van beide criteria. In totaal zijn 29.407 variabelen weergegeven.
 
 ---
 
