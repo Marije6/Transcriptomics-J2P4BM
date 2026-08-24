@@ -70,19 +70,30 @@ De analyse laat zien dat meerdere genen differentieel tot expressie komen tussen
 ---
 
 ### 🔬 GO- Analyse
+hoi
 
 
-De GO-analyse toonde een sterke verrijking van immuungerelateerde processen, waaronder lymfocytdifferentiatie, leukocyt-gemedieerde immuniteit, T-celdifferentiatie en B-celactivatie ([Figuur 2](./Resultaten/Figuur%202.%20GO-analyse.png)). Deze processen waren significant verrijkt onder de differentieel geëxpresseerde genen.
+
+
+
+
+
 <img width="1918" height="990" alt="GO-analyse" src="https://github.com/user-attachments/assets/e063c510-8c18-4256-9e2c-3295852eb341" />
-<sub>**Figuur 2.** GO-enrichmentanalyse van differentieel geëxpresseerde genen tussen RA-patiënten en controles. De meest verrijkte biologische processen zijn voornamelijk gerelateerd aan immuunresponsen, waaronder lymfocytdifferentiatie, leukocyt-gemedieerde immuniteit, T-celdifferentiatie en B-celactivatie. De grootte van de stippen geeft het aantal genen weer en de kleur de gecorrigeerde p-waarde .</sub>
+<sub> **Figuur 2.** GO-enrichmentanalyse van differentieel geëxpresseerde genen tussen RA-patiënten en controles. De meest verrijkte biologische processen zijn voornamelijk gerelateerd aan immuunresponsen, waaronder lymfocytdifferentiatie, leukocyt-gemedieerde immuniteit, T-celdifferentiatie en B-celactivatie. De grootte van de stippen geeft het aantal genen weer en de kleur de gecorrigeerde p-waarde .</sub>
 
 
 ---
 
 ### 🔬 Barplot en dotplot Kegg pathway-analyse
-De barplot en dotplot van de KEGG pathway-analyse lieten zien dat verschillende ontstekings- en immuungerelateerde pathways significant verrijkt waren bij RA. De meest verrijkte pathways waren onder andere de MAPK, TNF, NF-kappa B, IL-17 en NOD-like receptor signaling pathways ([Figuur 3]
 
-(./Resultaten/Figuur%203.%20Dotplot%20Kegg%20result.png) en [Figuur 4](./Resultaten/Figuur%204.%20Barplot%20Kegg%20result.png)).
+Te zien in  [Figuur 3](./Resultaten/Figuur%203.%20Dotplot%20Kegg%20result.png)). en [Figuur 4](./Resultaten/Figuur%204.%20Barplot%20Kegg%20result.png)).
+
+
+
+
+
+
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/846db693-43b7-4cf1-809d-5fa5bc70716a" alt="Barplot KEGG result" width="350">
   <img src="https://github.com/user-attachments/assets/2e721ee1-5bb4-490a-8e47-9bfce5d7d6d8" alt="Dotplot KEGG result" width="350">
@@ -97,25 +108,8 @@ De barplot en dotplot van de KEGG pathway-analyse lieten zien dat verschillende 
 ---
 
 ### 🔬 Kegg-pathway
-Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier controles liet verschillen in genexpressie zien binnen de KEGG-pathway voor reumatoïde artritis ([Figuur 9](Resultaten/Figuur%209.%20KEGG-pathway%20van%20Reumato%C3%AFde%20Artritis%20(RA).png)). Meerdere ontstekingsgerelateerde genen, waaronder **IL1A**, **IL1B**, **CD28** en **MMP13**, waren verhoogd tot expressie gebracht bij RA, terwijl andere genen een verlaagde expressie vertoonden. Deze resultaten wijzen op activatie van immuun- en ontstekingsprocessen die bijdragen aan synovitis, gewrichtsschade en botafbraak, kenmerkende eigenschappen van reumatoïde artritis. De referentiepathway is weergegeven in [Figuur 10](Resultaten/Figuur%2010.%20Referentie%20KEGG-pathway%20van%20Reumato%C3%AFde%20Artritis..png).
 
-<div align="center">
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/44ddae3f-a4d9-4e0a-91ae-3adc5f77557b" alt="KEGG-pathway van Reumatoïde Artritis (RA)" width="450"><br>
-      <b>Figuur 9.</b> KEGG-pathway van Reumatoïde Artritis (RA).
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/ec4206f9-92fa-49ca-9100-981361dee566" alt="Referentie KEGG-pathway van Reumatoïde Artritis" width="450"><br>
-      <b>Figuur 10.</b> Referentie KEGG-pathway van Reumatoïde Artritis.
-    </td>
-  </tr>
-</table>
-</div>
-
-<sub>Figuur 9 & 10. KEGG Rheumatoid Arthritis pathway. Figuur 10 toont de standaard pathway, terwijl Figuur 9 de differentiële genexpressie tussen RA-patiënten en controles weergeeft. Rood duidt op verhoogde expressie en groen op verlaagde expressie.</sub>
 
 ---
 
@@ -142,15 +136,32 @@ De wetenschappelijke artikelen die voor dit project zijn gebruikt, zijn terug te
 Tijdens dit project is gebruikgemaakt van ChatGPT als ondersteunend hulpmiddel. ChatGPT is gebruikt voor:
 
 ♡ het genereren van afbeeldingen voor het voorblad, de workflow en de banner aan het einde van de GitHub-pagina
-  
+
+	
 ♡ het verbeteren, inkorten en controleren van zelfgeschreven teksten op spelling, grammatica en leesbaarheid;
+
+
 
 ♡ ondersteuning bij het interpreteren van resultaten, waaronder de volcano plot, GO-analyse, KEGG-pathwayanalyse, barplot en dotplot;
 
+
+
 ♡ het genereren en verbeteren van Markdown- en HTML-code voor de opmaak van de GitHub-pagina;
+
+
+
 
 ♡ ondersteuning tijdens het programmeren in R, waaronder het genereren, controleren en optimaliseren van code en het helpen opsporen en oplossen van programmeerfouten (errors).
 
-ChatGPT is uitsluitend gebruikt als ondersteunend hulpmiddel. De uiteindelijke keuzes met betrekking tot de analyses, interpretatie van de resultaten en de inhoud van dit project zijn door mij gemaakt.
+Chatgpt is uitsluitend gebruikt als ondersteunend hulpmiddel. De uiteindelijke keuzes met betrekking tot de analyses, interpretatie van de resultaten en de inhoud van dit project zijn door mij gemaakt.
+
+
+
+
+
+
+
+
+
 <img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/fe3ab7cb-34f0-4b38-bc36-29b8aadd2b3c" />
 
