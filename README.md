@@ -58,7 +58,7 @@ De resultaten werden gevisualiseerd met EnhancedVolcano versie 1.28.2 (Blighe et
 **💗Resultaten**
 ---
 
-### 🔬 Vulcano plot
+### 🔬Veel genen zijn differentieel tot expressie gebracht
 Om verschillen in genexpressie tussen RA-patiënten en controles te identificeren, werd een differentiële genexpressieanalyse uitgevoerd met DESeq2. De resultaten zijn weergegeven in een volcano plot [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png). Genen werden als differentieel geëxpresseerd beschouwd bij een adjusted p-value < 0,05 en een absolute log₂ fold change > 1.
 
 De analyse laat zien dat meerdere genen differentieel tot expressie komen tussen RA-patiënten en controles. Zowel genen met een verhoogde als genen met een verlaagde expressie in RA ten opzichte van controles zijn aanwezig. Aan de kant van de verlaagde expressie vallen onder andere ANKRD30BL, MT-ND6, RAB3IL1, SLC9A3R2 en ZNF598 op door hun sterke negatieve log₂ fold change en hoge statistische significantie. Aan de kant van de verhoogde expressie behoren onder andere SRGN, PTGFR, BCL2A1, COL6A5 en IGKV1-39 tot de opvallende genen. De differentieel geëxpresseerde genen vertonen daarmee zowel positieve als negatieve log₂ fold change-waarden, wat wijst op zowel verhoogde als verlaagde genexpressie in RA ten opzichte van controles.  In totaal zijn er 29.407 genen geanalyseerd, hiervan zijn er 4.572 genen die een significant verschil toonde tussen de RA- en controlesamples. Deze 4.572 genen worden verder gebruikt voor de GO analyse en KEGG pathway analyse.
@@ -72,7 +72,7 @@ De analyse laat zien dat meerdere genen differentieel tot expressie komen tussen
 
 ---
 
-### 🔬 GO- Analyse / Differentiëel tot expressie gebrachte genen zijn voornamelijk betrokken bij immuunresponsen
+### 🔬 Differentiëel tot expressie gebrachte genen zijn voornamelijk betrokken bij immuunresponsen
 
 Om te bepalen bij welke biologische processen de differentieel tot expressie gebrachte genen betrokken zijn, is een Gene Ontology (GO)-analyse uitgevoerd. [Figuur 2](./Resultaten/Figuur%202.%20GO-analyse.png) toont de 15 meest significant verrijkte biologische processen.
 De resultaten laten zien dat de genen voornamelijk betrokken zijn bij immuunprocessen, zoals lymphocyte differentiation, leukocyte mediated immunity, T cell differentiation en B cell activation. Lymphocyte differentiation en leukocyte mediated immunity behoren tot de sterkst verrijkte processen. De grootte van de punten geeft het aantal genen per proces weer en de kleur de aangepaste p-waarde. Dit wijst erop dat de differentieel tot expressie gebrachte genen voornamelijk samenhangen met de ontwikkeling en activatie van immuuncellen.
@@ -82,6 +82,7 @@ De resultaten laten zien dat de genen voornamelijk betrokken zijn bij immuunproc
 
 
 ---
+### 🔬 KEGG-analyse toont verrijking van immuun- en ontstekingsgerelateerde pathways
 
 Om te bepalen welke pathways geassocieerd zijn met de differentieel tot expressie gebrachte genen, is een KEGG pathway-analyse uitgevoerd. De tien meest significant verrijkte pathways zijn weergegeven in [Figuur 3.](Resultaten/Figuur%203.%20Barplot%20Kegg%20result.png) en [Figuur 4. ](Resultaten/Figuur%204.%20Dotplot%20Kegg%20result].png)
 
@@ -100,14 +101,14 @@ De resultaten laten zien dat voornamelijk immuun- en ontstekingsgerelateerde pat
 
 ---
 
-### 🔬 Kegg-pathway
+### 🔬 Veranderingen in de rheumatoid arthritis pathway wijzen op meerdere ontstekingsprocessen
 Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier controles liet verschillen in genexpressie zien binnen de KEGG-pathway voor reumatoïde artritis [Figuur 5](./Resultaten/Figuur%205.%20KEGG-pathway%20van%20Reumatoïde%20Artritis%20%28RA%29.png) Meerdere ontstekingsgerelateerde genen, waaronder **IL1A**, **IL1B**, **CD28** en **MMP13**, waren verhoogd tot expressie gebracht bij RA, terwijl andere genen een verlaagde expressie vertoonden. Deze resultaten wijzen op activatie van immuun- en ontstekingsprocessen die bijdragen aan synovitis, gewrichtsschade en botafbraak, kenmerkende eigenschappen van reumatoïde artritis. 
 
 ![Figuur 5](./Resultaten/Figuur%205.%20KEGG-pathway%20van%20Reumatoïde%20Artritis%20%28RA%29.png)
   
     
 
-<sub>**Figuur 5**.  KEGG Rheumatoid Arthritis pathway. 
+<sub>**Figuur 5** bijschrift
 
 ---
 
