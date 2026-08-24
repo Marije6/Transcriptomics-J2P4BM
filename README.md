@@ -104,7 +104,7 @@ Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier con
   
     
 
-<sub>Figuur 5  KEGG Rheumatoid Arthritis pathway. 
+<sub>**Figuur 5**.  KEGG Rheumatoid Arthritis pathway. 
 
 ---
 
