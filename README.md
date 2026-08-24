@@ -48,7 +48,7 @@ De resultaten werden gevisualiseerd met EnhancedVolcano versie 1.28.2 (Blighe et
 
 
 <img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/5463c166-ee00-4039-8755-9597e7b23626" />
- 
+
 
   <em> Workflow van de transcriptomics-analyse van synoviumbiopten van RA-patiënten en controles.</em>
 </p>
@@ -61,39 +61,29 @@ De resultaten werden gevisualiseerd met EnhancedVolcano versie 1.28.2 (Blighe et
 ### 🔬 Vulcano plot
 Om verschillen in genexpressie tussen RA-patiënten en controles te identificeren, werd een differentiële genexpressieanalyse uitgevoerd met DESeq2. De resultaten zijn weergegeven in een volcano plot [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png). Genen werden als differentieel geëxpresseerd beschouwd bij een adjusted p-value < 0,05 en een absolute log₂ fold change > 1.
 
-De analyse laat zien dat meerdere genen differentieel tot expressie komen tussen RA-patiënten en controles. Zowel genen met een verhoogde als genen met een verlaagde expressie in RA ten opzichte van controles zijn aanwezig. Aan de kant van de verlaagde expressie vallen onder andere **ANKRD30BL, MT-ND6, RAB3IL1, SLC9A3R2 en ZNF598** op door hun sterke negatieve log₂ fold change en hoge statistische significantie. Aan de kant van de verhoogde expressie behoren onder andere **SRGN, PTGFR, BCL2A1, COL6A5 en IGKV1-39** tot de opvallende genen. De differentieel geëxpresseerde genen vertonen daarmee zowel positieve als negatieve log₂ fold change-waarden, wat wijst op zowel verhoogde als verlaagde genexpressie in RA ten opzichte van controles. In totaal zijn er 29.407 genen geanalyseerd, hiervan zijn er 4.572 genen die een significant verschil toonde tussen de RA- en controlesamples. Deze 4.572 genen worden verder gebruikt voor de GO analyse en KEGG pathway analyse.
+De analyse laat zien dat meerdere genen differentieel tot expressie komen tussen RA-patiënten en controles. Zowel genen met een verhoogde als genen met een verlaagde expressie in RA ten opzichte van controles zijn aanwezig. Aan de kant van de verlaagde expressie vallen onder andere ANKRD30BL, MT-ND6, RAB3IL1, SLC9A3R2 en ZNF598 op door hun sterke negatieve log₂ fold change en hoge statistische significantie. Aan de kant van de verhoogde expressie behoren onder andere SRGN, PTGFR, BCL2A1, COL6A5 en IGKV1-39 tot de opvallende genen. De differentieel geëxpresseerde genen vertonen daarmee zowel positieve als negatieve log₂ fold change-waarden, wat wijst op zowel verhoogde als verlaagde genexpressie in RA ten opzichte van controles.  In totaal zijn er 29.407 genen geanalyseerd, hiervan zijn er 4.572 genen die een significant verschil toonde tussen de RA- en controlesamples. Deze 4.572 genen worden verder gebruikt voor de GO analyse en KEGG pathway analyse.
 
 
 <img width="1833" height="791" alt="Vulcano Plot" src="https://github.com/user-attachments/assets/cdf04c7c-db35-4032-9e3d-5a88f7467582" />
-<sub><b>Figuur 1.</b> Volcano plot van de differentiële genexpressieanalyse tussen RA-patiënten en controles. De x-as toont de log₂ fold change en de y-as de −log₁₀ van de adjusted p-value. Positieve log₂ fold change-waarden geven een hogere genexpressie in RA-patiënten ten opzichte van controles weer, terwijl negatieve waarden een lagere genexpressie aangeven. De verticale stippellijnen geven de grenzen van |log₂ fold change| = 1 weer. Rode stippen zijn genen die zowel voldoen aan de ingestelde grens voor statistische significantie als aan de grens voor de log₂ fold change. Groene stippen voldoen aan de grens voor de log₂ fold change, maar niet aan de grens voor statistische significantie. Grijze stippen voldoen aan geen van beide criteria. In totaal zijn 29.407 variabelen weergegeven.
+<sub><b>Figuur 1.</b> Volcano plot van de differentiële genexpressieanalyse tussen RA-patiënten en controles. De x-as toont de log₂ fold change en de y-as de −log₁₀ van de adjusted p-value. Positieve log₂ fold change-waarden geven een hogere genexpressie in RA-patiënten ten opzichte van controles weer, terwijl negatieve waarden een lagere genexpressie aangeven. De verticale stippellijnen geven de grenzen van |log₂ fold change| = 1 weer. Rode stippen representeren genen die zowel voldoen aan de ingestelde grens voor statistische significantie als aan de grens voor de log₂ fold change. Groene stippen voldoen aan de grens voor de log₂ fold change, maar niet aan de grens voor statistische significantie. Grijze stippen voldoen aan geen van beide criteria. In totaal zijn 29.407 variabelen weergegeven.</sub>
+
+
+
 
 ---
 
 ### 🔬 GO- Analyse
-hoi
 
 
-
-
-
-
-
+De GO-analyse toonde een sterke verrijking van immuungerelateerde processen, waaronder lymfocytdifferentiatie, leukocyt-gemedieerde immuniteit, T-celdifferentiatie en B-celactivatie ([Figuur 2](./Resultaten/Figuur%202.%20GO-analyse.png)). Deze processen waren significant verrijkt onder de differentieel geëxpresseerde genen.
 <img width="1918" height="990" alt="GO-analyse" src="https://github.com/user-attachments/assets/e063c510-8c18-4256-9e2c-3295852eb341" />
-<sub> **Figuur 2.** GO-enrichmentanalyse van differentieel geëxpresseerde genen tussen RA-patiënten en controles. De meest verrijkte biologische processen zijn voornamelijk gerelateerd aan immuunresponsen, waaronder lymfocytdifferentiatie, leukocyt-gemedieerde immuniteit, T-celdifferentiatie en B-celactivatie. De grootte van de stippen geeft het aantal genen weer en de kleur de gecorrigeerde p-waarde .</sub>
+<sub>**Figuur 2.** GO-enrichmentanalyse van differentieel geëxpresseerde genen tussen RA-patiënten en controles. De meest verrijkte biologische processen zijn voornamelijk gerelateerd aan immuunresponsen, waaronder lymfocytdifferentiatie, leukocyt-gemedieerde immuniteit, T-celdifferentiatie en B-celactivatie. De grootte van de stippen geeft het aantal genen weer en de kleur de gecorrigeerde p-waarde .</sub>
 
 
 ---
 
 ### 🔬 Barplot en dotplot Kegg pathway-analyse
-
-Te zien in  [Figuur 3](./Resultaten/Figuur%203.%20Dotplot%20Kegg%20result.png)). en [Figuur 4](./Resultaten/Figuur%204.%20Barplot%20Kegg%20result.png)).
-
-
-
-
-
-
-
+De barplot en dotplot van de KEGG pathway-analyse lieten zien dat verschillende ontstekings- en immuungerelateerde pathways significant verrijkt waren bij RA. De meest verrijkte pathways waren onder andere de MAPK, TNF, NF-kappa B, IL-17 en NOD-like receptor signaling pathways ([Figuur 3](./Resultaten/Figuur%203.%20Dotplot%20Kegg%20result.png) en [Figuur 4](./Resultaten/Figuur%204.%20Barplot%20Kegg%20result.png)).
 <p align="center">
   <img src="https://github.com/user-attachments/assets/846db693-43b7-4cf1-809d-5fa5bc70716a" alt="Barplot KEGG result" width="350">
   <img src="https://github.com/user-attachments/assets/2e721ee1-5bb4-490a-8e47-9bfce5d7d6d8" alt="Dotplot KEGG result" width="350">
@@ -108,8 +98,25 @@ Te zien in  [Figuur 3](./Resultaten/Figuur%203.%20Dotplot%20Kegg%20result.png)).
 ---
 
 ### 🔬 Kegg-pathway
+Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier controles liet verschillen in genexpressie zien binnen de KEGG-pathway voor reumatoïde artritis ([Figuur 9](Resultaten/Figuur%209.%20KEGG-pathway%20van%20Reumato%C3%AFde%20Artritis%20(RA).png)). Meerdere ontstekingsgerelateerde genen, waaronder **IL1A**, **IL1B**, **CD28** en **MMP13**, waren verhoogd tot expressie gebracht bij RA, terwijl andere genen een verlaagde expressie vertoonden. Deze resultaten wijzen op activatie van immuun- en ontstekingsprocessen die bijdragen aan synovitis, gewrichtsschade en botafbraak, kenmerkende eigenschappen van reumatoïde artritis. De referentiepathway is weergegeven in [Figuur 10](Resultaten/Figuur%2010.%20Referentie%20KEGG-pathway%20van%20Reumato%C3%AFde%20Artritis..png).
 
+<div align="center">
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/44ddae3f-a4d9-4e0a-91ae-3adc5f77557b" alt="KEGG-pathway van Reumatoïde Artritis (RA)" width="450"><br>
+      <b>Figuur 9.</b> KEGG-pathway van Reumatoïde Artritis (RA).
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/ec4206f9-92fa-49ca-9100-981361dee566" alt="Referentie KEGG-pathway van Reumatoïde Artritis" width="450"><br>
+      <b>Figuur 10.</b> Referentie KEGG-pathway van Reumatoïde Artritis.
+    </td>
+  </tr>
+</table>
+</div>
+
+<sub>Figuur 9 & 10. KEGG Rheumatoid Arthritis pathway. Figuur 10 toont de standaard pathway, terwijl Figuur 9 de differentiële genexpressie tussen RA-patiënten en controles weergeeft. Rood duidt op verhoogde expressie en groen op verlaagde expressie.</sub>
 
 ---
 
@@ -137,31 +144,13 @@ Tijdens dit project is gebruikgemaakt van ChatGPT als ondersteunend hulpmiddel. 
 
 ♡ het genereren van afbeeldingen voor het voorblad, de workflow en de banner aan het einde van de GitHub-pagina
 
-	
 ♡ het verbeteren, inkorten en controleren van zelfgeschreven teksten op spelling, grammatica en leesbaarheid;
-
-
 
 ♡ ondersteuning bij het interpreteren van resultaten, waaronder de volcano plot, GO-analyse, KEGG-pathwayanalyse, barplot en dotplot;
 
-
-
 ♡ het genereren en verbeteren van Markdown- en HTML-code voor de opmaak van de GitHub-pagina;
-
-
-
 
 ♡ ondersteuning tijdens het programmeren in R, waaronder het genereren, controleren en optimaliseren van code en het helpen opsporen en oplossen van programmeerfouten (errors).
 
-Chatgpt is uitsluitend gebruikt als ondersteunend hulpmiddel. De uiteindelijke keuzes met betrekking tot de analyses, interpretatie van de resultaten en de inhoud van dit project zijn door mij gemaakt.
-
-
-
-
-
-
-
-
-
+ChatGPT is uitsluitend gebruikt als ondersteunend hulpmiddel. De uiteindelijke keuzes met betrekking tot de analyses, interpretatie van de resultaten en de inhoud van dit project zijn door mij gemaakt.
 <img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/fe3ab7cb-34f0-4b38-bc36-29b8aadd2b3c" />
-
