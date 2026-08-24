@@ -98,19 +98,13 @@ De barplot en dotplot van de KEGG pathway-analyse lieten zien dat verschillende 
 ---
 
 ### 🔬 Kegg-pathway
-Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier controles liet verschillen in genexpressie zien binnen de KEGG-pathway voor reumatoïde artritis ([Figuur 9](Resultaten/Figuur%209.%20KEGG-pathway%20van%20Reumato%C3%AFde%20Artritis%20(RA).png)). Meerdere ontstekingsgerelateerde genen, waaronder **IL1A**, **IL1B**, **CD28** en **MMP13**, waren verhoogd tot expressie gebracht bij RA, terwijl andere genen een verlaagde expressie vertoonden. Deze resultaten wijzen op activatie van immuun- en ontstekingsprocessen die bijdragen aan synovitis, gewrichtsschade en botafbraak, kenmerkende eigenschappen van reumatoïde artritis. 
+Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier controles liet verschillen in genexpressie zien binnen de KEGG-pathway voor reumatoïde artritis [Figuur 5](./Resultaten/Figuur%205.%20KEGG-pathway%20van%20Reumatoïde%20Artritis%20%28RA%29.png) Meerdere ontstekingsgerelateerde genen, waaronder **IL1A**, **IL1B**, **CD28** en **MMP13**, waren verhoogd tot expressie gebracht bij RA, terwijl andere genen een verlaagde expressie vertoonden. Deze resultaten wijzen op activatie van immuun- en ontstekingsprocessen die bijdragen aan synovitis, gewrichtsschade en botafbraak, kenmerkende eigenschappen van reumatoïde artritis. 
 
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/44ddae3f-a4d9-4e0a-91ae-3adc5f77557b" alt="KEGG-pathway van Reumatoïde Artritis (RA)" width="900"><br>
-      <b>Figuur 9.</b> KEGG-pathway van Reumatoïde Artritis (RA).
+![Figuur 5](./Resultaten/Figuur%205.%20KEGG-pathway%20van%20Reumatoïde%20Artritis%20%28RA%29.png)
   
     
 
-<sub>Figuur 5  KEGG Rheumatoid Arthritis pathway. Figuur 9 toont de differentiële genexpressie tussen RA-patiënten en controles weergeeft. Rood duidt op verhoogde expressie en groen op verlaagde expressie.</sub>
+<sub>Figuur 5  KEGG Rheumatoid Arthritis pathway. 
 
 ---
 
