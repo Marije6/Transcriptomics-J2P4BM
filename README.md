@@ -39,13 +39,11 @@ In dit project wordt een transcriptomicsanalyse uitgevoerd op RNA-sequencingdata
 **💗Methoden**
 
 
-Voor dit onderzoek is gebruikgemaakt van RNA-sequencing (RNA-seq)-data afkomstig van synoviumbiopten van acht vrouwelijke patiënten: vier met reumatoïde artritis (RA) en vier gezonde controles. De RA-patiënten hadden een ziekteduur van minimaal 12 maanden en waren ACPA-positief; de controles waren ACPA-negatief. De dataset is afkomstig van  [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf) 
+Voor dit onderzoek werd gebruikgemaakt van paired-end RNA-sequencing (RNA-seq)-data van synoviumbiopten van acht vrouwelijke patiënten: vier met reumatoïde artritis (RA) en vier gezonde controles. De RA-patiënten hadden een ziekteduur van minimaal 12 maanden en waren ACPA-positief; de controles waren ACPA-negatief. De dataset is afkomstig van  [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf) 
 
-De analyse is uitgevoerd in R (versie 4.5.2). Het humane referentiegenoom GRCh38.p14 werd geïndexeerd met Rsubread (versie 2.24.0), waarna de paired-end RNA-sequenties werden gealigneerd. Met featureCounts werd vervolgens een gen-level countmatrix opgesteld op basis van een GTF-annotatiebestand.
+De analyse werd uitgevoerd in R versie 4.5.2. Het humane referentiegenoom GRCh38.p14 werd geïndexeerd met Rsubread versie 2.24.0 (Liao et al., 2019), waarna de paired-end reads werden gealigneerd. Met featureCounts() werd op basis van een GTF-annotatiebestand een gen-level countmatrix opgesteld. De countmatrix werd geanalyseerd met DESeq2 versie 1.50.2 (Love et al., 2014). Na normalisatie werd de genexpressie tussen de RA- en controlegroep vergeleken. Omdat duizenden genen tegelijkertijd werden getest, werden de p-waarden gecorrigeerd voor multiple testing met de Benjamini-Hochberg-methode. Genen met een adjusted p-value (padj) < 0,05 en een absolute log₂ fold change > 1 werden als significant beschouwd.
 
-De countmatrix vormde de input voor de differentiële expressieanalyse met DESeq2 (versie 1.50.2). Na normalisatie werd de genexpressie tussen de RA- en controlegroep vergeleken. Genen met een gecorrigeerde p-waarde < 0,05 en een |log₂ fold change| > 1 werden als significant beschouwd.
-
-De resultaten zijn gevisualiseerd met een volcano plot (EnhancedVolcano, versie 1.28.2). Vervolgens zijn de significant differentieel geëxpresseerde genen geanalyseerd met Gene Ontology (GO)- en KEGG-pathwayanalyses met clusterProfiler (versie 4.18.4). De verrijkte KEGG-pathways zijn ten slotte gevisualiseerd met pathview (versie 1.50.0).
+De resultaten werden gevisualiseerd met EnhancedVolcano versie 1.28.2 (Blighe et al., 2025). Significant differentieel geëxpresseerde genen werden met org.Hs.eg.db versie 3.22.0 (Carlson, 2025) omgezet naar Entrez-ID's en geanalyseerd met clusterProfiler versie 4.18.4 (Xu et al., 2024) voor GO Biological Process- en KEGG-verrijking. De KEGG-pathways werden gevisualiseerd met pathview versie 1.50.0 (Luo & Brouwer, 2013). De gebruikte scripts en data zijn beschikbaar in de bijbehorende repositoryfolders.
 
 
 
