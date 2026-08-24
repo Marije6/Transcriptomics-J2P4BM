@@ -87,14 +87,14 @@ De resultaten laten zien dat de genen voornamelijk betrokken zijn bij immuunproc
 De barplot en dotplot van de KEGG pathway-analyse lieten zien dat verschillende ontstekings- en immuungerelateerde pathways significant verrijkt waren bij RA. De meest verrijkte pathways waren onder andere de MAPK, TNF, NF-kappa B, IL-17 en NOD-like receptor signaling pathways ( [Figuur 3.](Resultaten/Figuur%203.%20Barplot%20Kegg%20result.png) en [Figuur 4. ](Resultaten/Figuur%204.%20Dotplot%20Kegg%20result.png)).
 <p align="center">
   <img src="https://github.com/user-attachments/assets/846db693-43b7-4cf1-809d-5fa5bc70716a" alt="Barplot KEGG result" width="900">
+    
+<sub><b>Figuur 3.</b> De tien meest significant verrijkte KEGG pathways zijn weergegeven op de y-as. De x-as toont het aantal genen (Count) per pathway. De kleur van de balken geeft de aangepaste p-waarde (p.adjust) weer.
+
   <img src="https://github.com/user-attachments/assets/2e721ee1-5bb4-490a-8e47-9bfce5d7d6d8" alt="Dotplot KEGG result" width="900">
 </p>
-<p align="center">
-  <b>Figuur 3:</b> Barplot van de KEGG pathway-analyse &nbsp;&nbsp;&nbsp;
-  <b>Figuur 4:</b> Dotplot van de KEGG pathway-analyse
-</p
+
   
-<sub><b>Figuur 3 & 4.</b> Dotplot van de KEGG pathway-analyse van differentieel geëxpresseerde genen tussen RA-patiënten en controles. De grootte van de stippen geeft het aantal genen weer en de kleur de gecorrigeerde p-waarde.</sub>
+<sub><b>Figuur 4. </b>De tien meest significant verrijkte KEGG pathways zijn weergegeven op de y-as. De x-as toont de GeneRatio. De grootte van de punten geeft het aantal genen (Count) weer en de kleur de aangepaste p-waarde (p.adjust).</sub>
 
 ---
 
