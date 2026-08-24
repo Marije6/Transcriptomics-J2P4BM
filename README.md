@@ -72,12 +72,13 @@ De analyse laat zien dat meerdere genen differentieel tot expressie komen tussen
 
 ---
 
-### 🔬 GO- Analyse
+### 🔬 GO- Analyse / Differentiëel tot expressie gebrachte genen zijn voornamelijk betrokken bij immuunresponsen
 
+Om te bepalen bij welke biologische processen de differentieel tot expressie gebrachte genen betrokken zijn, is een Gene Ontology (GO)-analyse uitgevoerd. [Figuur 2](./Resultaten/Figuur%202.%20GO-analyse.png) toont de 15 meest significant verrijkte biologische processen.
+De resultaten laten zien dat de genen voornamelijk betrokken zijn bij immuunprocessen, zoals lymphocyte differentiation, leukocyte mediated immunity, T cell differentiation en B cell activation. Lymphocyte differentiation en leukocyte mediated immunity behoren tot de sterkst verrijkte processen. De grootte van de punten geeft het aantal genen per proces weer en de kleur de aangepaste p-waarde. Dit wijst erop dat de differentieel tot expressie gebrachte genen voornamelijk samenhangen met de ontwikkeling en activatie van immuuncellen.
 
-De GO-analyse toonde een sterke verrijking van immuungerelateerde processen, waaronder lymfocytdifferentiatie, leukocyt-gemedieerde immuniteit, T-celdifferentiatie en B-celactivatie ([Figuur 2](./Resultaten/Figuur%202.%20GO-analyse.png)). Deze processen waren significant verrijkt onder de differentieel geëxpresseerde genen.
 <img width="1918" height="990" alt="GO-analyse" src="https://github.com/user-attachments/assets/e063c510-8c18-4256-9e2c-3295852eb341" />
-<sub>**Figuur 2.** GO-enrichmentanalyse van differentieel geëxpresseerde genen tussen RA-patiënten en controles. De meest verrijkte biologische processen zijn voornamelijk gerelateerd aan immuunresponsen, waaronder lymfocytdifferentiatie, leukocyt-gemedieerde immuniteit, T-celdifferentiatie en B-celactivatie. De grootte van de stippen geeft het aantal genen weer en de kleur de gecorrigeerde p-waarde .</sub>
+<sub> Figuur 2. De 15 meest significant verrijkte biologische processen onder de differentieel tot expressie gebrachte genen zijn weergegeven. De x-as toont de GeneRatio en de y-as de biologische processen. De grootte van de punten geeft het aantal genen (Count) weer en de kleur de aangepaste p-waarde (p.adjust). .</sub>
 
 
 ---
