@@ -84,14 +84,10 @@ De resultaten laten zien dat de genen voornamelijk betrokken zijn bij immuunproc
 ---
 ### 🔬 KEGG-analyse toont verrijking van immuun- en ontstekingsgerelateerde pathways
 
-Om te bepalen welke pathways geassocieerd zijn met de differentieel tot expressie gebrachte genen, is een KEGG pathway-analyse uitgevoerd. De tien meest significant verrijkte pathways zijn weergegeven in [Figuur 3.](Resultaten/Figuur%203.%20Barplot%20Kegg%20result.png) en [Figuur 4. ](Resultaten/Figuur%204.%20Dotplot%20Kegg%20result].png)
+Om te bepalen welke pathways geassocieerd zijn met de differentieel tot expressie gebrachte genen, is een KEGG pathway-analyse uitgevoerd. De tien meest significant verrijkte pathways zijn weergegeven in ... 
 
 De resultaten laten zien dat voornamelijk immuun- en ontstekingsgerelateerde pathways verrijkt zijn. De MAPK signaling pathway bevatte de meeste differentieel tot expressie gebrachte genen en had ook de hoogste GeneRatio (ongeveer 0,049). Daarnaast waren onder andere de NOD-like receptor signaling pathway, TNF signaling pathway, NF-kappa B signaling pathway en Th17 cell differentiation sterk vertegenwoordigd. Alle weergegeven pathways waren significant verrijkt (aangepaste p-waarde < 0,001). Dit wijst erop dat de differentieel tot expressie gebrachte genen voornamelijk betrokken zijn bij immuunsignalering en ontstekingsprocessen. 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/846db693-43b7-4cf1-809d-5fa5bc70716a" alt="Barplot KEGG result" width="900">
-    
-<sub><b>Figuur 3.</b> De tien meest significant verrijkte KEGG pathways zijn weergegeven op de y-as. De x-as toont het aantal genen (Count) per pathway. De kleur van de balken geeft de aangepaste p-waarde (p.adjust) weer.
 
   <img src="https://github.com/user-attachments/assets/2e721ee1-5bb4-490a-8e47-9bfce5d7d6d8" alt="Dotplot KEGG result" width="900">
 </p>
