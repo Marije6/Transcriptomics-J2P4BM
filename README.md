@@ -97,10 +97,10 @@ De resultaten laten zien dat voornamelijk immuun- en ontstekingsgerelateerde pat
 ---
 
 ### 🔬 De Rheumatoid Arthritis pathway toont veranderingen in immuun- en ontstekingsprocessen
-Om de betrokken genen binnen de RA-gerelateerde pathway verder te onderzoeken, werd de Rheumatoid Arthritis pathway (hsa05323) gevisualiseerd met Pathview ([Figuur 4](<Resultaten/Figuur 4. KEGG-pathway van Reumatoïde Artritis (RA).png>)). In de pathway zijn zowel verhoogde als verlaagde genexpressies zichtbaar ten opzichte van de controles. Zo vertonen onder andere CD80, CD28, CTLA4, LFA1, IL1, TGFβ, IL1β en MMP13 een verhoogde expressie, terwijl onder andere IFNγ, MHCII, IL6, IL23, VEGF en CTSL een verlaagde expressie laten zien. De veranderde genen zijn verspreid over processen zoals immuunactivatie, cytokinesignalering, ontsteking en botafbraak.
+Om de betrokken genen binnen de RA-gerelateerde pathway verder te onderzoeken, werd de Rheumatoid Arthritis pathway (hsa05323) gevisualiseerd met Pathview [Figuur 4](Resultaten/Figuur%204.%20KEGG-pathway%20van%20Reumatoïde%20Artritis%20(RA).png). In de pathway zijn zowel verhoogde als verlaagde genexpressies zichtbaar ten opzichte van de controles. Zo vertonen onder andere CD80, CD28, CTLA4, LFA1, IL1, TGFβ, IL1β en MMP13 een verhoogde expressie, terwijl onder andere IFNγ, MHCII, IL6, IL23, VEGF en CTSL een verlaagde expressie laten zien. De veranderde genen zijn verspreid over processen zoals immuunactivatie, cytokinesignalering, ontsteking en botafbraak.
 
 
-![Figuur 4](<Resultaten/Figuur 4a. KEGG-pathway van Reumatoïde Artritis (RA).png>)
+![Figuur 4](Resultaten/Figuur%204.%20KEGG-pathway%20van%20Reumatoïde%20Artritis%20(RA).png)
   
 <sub>**Figuur 4** De pathway toont de expressieveranderingen van genen in de RA-groep ten opzichte van de controlegroep. Rode vakken geven een verhoogde genexpressie en groene vakken een verlaagde genexpressie weer. De weergegeven genen zijn betrokken bij onder andere immuunactivatie, ontstekingsprocessen, cytokinesignalering en botafbraak.
 
