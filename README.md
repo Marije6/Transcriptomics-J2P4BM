@@ -98,13 +98,13 @@ De resultaten laten zien dat voornamelijk immuun- en ontstekingsgerelateerde pat
 ---
 
 ### 🔬 Veranderingen in de rheumatoid arthritis pathway wijzen op meerdere ontstekingsprocessen
-Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier controles liet verschillen in genexpressie zien binnen de KEGG-pathway voor reumatoïde artritis [Figuur 5](./Resultaten/Figuur%205.%20KEGG-pathway%20van%20Reumatoïde%20Artritis%20%28RA%29.png) Meerdere ontstekingsgerelateerde genen, waaronder **IL1A**, **IL1B**, **CD28** en **MMP13**, waren verhoogd tot expressie gebracht bij RA, terwijl andere genen een verlaagde expressie vertoonden. Deze resultaten wijzen op activatie van immuun- en ontstekingsprocessen die bijdragen aan synovitis, gewrichtsschade en botafbraak, kenmerkende eigenschappen van reumatoïde artritis. 
+Transcriptomische analyse van synoviumbiopten van vier RA-patiënten en vier controles liet verschillen in genexpressie zien binnen de KEGG-pathway voor reumatoïde artritis [Figuur 4](./Resultaten/Figuur%205.%20KEGG-pathway%20van%20Reumatoïde%20Artritis%20%28RA%29.png) Meerdere ontstekingsgerelateerde genen, waaronder **IL1A**, **IL1B**, **CD28** en **MMP13**, waren verhoogd tot expressie gebracht bij RA, terwijl andere genen een verlaagde expressie vertoonden. Deze resultaten wijzen op activatie van immuun- en ontstekingsprocessen die bijdragen aan synovitis, gewrichtsschade en botafbraak, kenmerkende eigenschappen van reumatoïde artritis. 
 
-![Figuur 5](./Resultaten/Figuur%205.%20KEGG-pathway%20van%20Reumatoïde%20Artritis%20%28RA%29.png)
+![Figuur 4](./Resultaten/Figuur%205.%20KEGG-pathway%20van%20Reumatoïde%20Artritis%20%28RA%29.png)
   
     
 
-<sub>**Figuur 5** Differentieel tot expressie gebrachte genen binnen de KEGG rheumatoid arthritis pathway. De gekleurde genen geven de relatieve genexpressie weer ten opzichte van de controles. Rood geeft verhoogde expressie en groen verlaagde expressie weer.
+<sub>**Figuur 4** Differentieel tot expressie gebrachte genen binnen de KEGG rheumatoid arthritis pathway. De gekleurde genen geven de relatieve genexpressie weer ten opzichte van de controles. Rood geeft verhoogde expressie en groen verlaagde expressie weer.
 
 ---
 
