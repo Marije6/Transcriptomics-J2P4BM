@@ -97,11 +97,12 @@ De resultaten laten zien dat voornamelijk immuun- en ontstekingsgerelateerde pat
 ---
 
 ### 🔬 Veranderingen in de rheumatoid arthritis pathway wijzen op meerdere ontstekingsprocessen
-Om de betrokkenheid van specifieke genen binnen de geselecteerde KEGG-pathways verder te onderzoeken, zijn de TNF signaling pathway en Rheumatoid Arthritis pathway gevisualiseerd met Pathview. In de TNF signaling pathway zijn zowel verhoogde als verlaagde genexpressies zichtbaar ten opzichte van de controles ([Figuur 4a](<Resultaten/Figuur 4. KEGG-pathway van Reumatoïde Artritis (RA).png>)). Onder andere IL1, TGFβ, IL1β en MMP13 zijn verhoogd tot expressie gebracht, terwijl onder andere IFNγ en MCSF een verlaagde expressie laten zien. Ook in de Rheumatoid Arthritis pathway zijn meerdere genen met veranderde expressie zichtbaar ( [Figuur 4b](<Resultaten/Figuur 5. Referentie KEGG-pathway van Reumatoïde Artritis..png>) 
-). Deze veranderingen zijn verspreid over processen zoals immuunactivatie, ontstekingsreacties en osteoclastdifferentiatie. Hiermee laten de resultaten zien dat meerdere onderdelen van de RA-gerelateerde ontstekingsrespons verschillen tussen de RA-groep en de controles. 
-![Figuur 4a](<Resultaten/Figuur 4a. KEGG-pathway van Reumatoïde Artritis (RA).png>)
+Om de betrokken genen binnen de RA-gerelateerde pathway verder te onderzoeken, werd de Rheumatoid Arthritis pathway (hsa05323) gevisualiseerd met Pathview ([Figuur 4](<Resultaten/Figuur 4. KEGG-pathway van Reumatoïde Artritis (RA).png>)). In de pathway zijn zowel verhoogde als verlaagde genexpressies zichtbaar ten opzichte van de controles. Zo vertonen onder andere CD80, CD28, CTLA4, LFA1, IL1, TGFβ, IL1β en MMP13 een verhoogde expressie, terwijl onder andere IFNγ, MHCII, IL6, IL23, VEGF en CTSL een verlaagde expressie laten zien. De veranderde genen zijn verspreid over processen zoals immuunactivatie, cytokinesignalering, ontsteking en botafbraak.
+
+
+![Figuur 4](<Resultaten/Figuur 4a. KEGG-pathway van Reumatoïde Artritis (RA).png>)
   
-<sub>**Figuur 4a** Differentieel tot expressie gebrachte genen binnen de KEGG rheumatoid arthritis pathway. De gekleurde genen geven de relatieve genexpressie weer ten opzichte van de controles. Rood geeft verhoogde expressie en groen verlaagde expressie weer.
+<sub>**Figuur 4** Differentieel tot expressie gebrachte genen binnen de KEGG rheumatoid arthritis pathway. De gekleurde genen geven de relatieve genexpressie weer ten opzichte van de controles. Rood geeft verhoogde expressie en groen verlaagde expressie weer.
 
 
 ---
