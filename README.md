@@ -58,10 +58,9 @@ De resultaten werden gevisualiseerd met EnhancedVolcano versie 1.28.2 (Blighe et
 **💗Resultaten**
 ---
 
-### 🔬Veel genen zijn differentieel tot expressie gebracht
-Om verschillen in genexpressie tussen RA-patiënten en controles te identificeren, werd een differentiële genexpressieanalyse uitgevoerd met DESeq2. De resultaten zijn weergegeven in een volcano plot [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png). Genen werden als differentieel geëxpresseerd beschouwd bij een adjusted p-value < 0,05 en een absolute log₂ fold change > 1.
+### Differentiële genexpressie tonen verschillen tussen RA en controles
+Om verschillen in genexpressie tussen RA-patiënten en controles te identificeren, werd een differentiële expressieanalyse uitgevoerd met DESeq2. Genen werden als differentieel geëxpresseerd beschouwd bij een adjusted p-value < 0,05 en een absolute log₂ fold change > 1. De resultaten zijn weergegeven in de volcano plot  [Figuur 1](Resultaten/Figuur%201.%20Vulcano%20Plot.png). Van de 29.407 geanalyseerde genen waren 4.572 genen differentieel geëxpresseerd. Zowel verhoogde als verlaagde expressie ten opzichte van de controles werd waargenomen. Onder andere SRGN, PTGFR, BCL2A1, COL6A5 en IGKV1-39 vertoonden een verhoogde expressie, terwijl ANKRD30BL, MT-ND6, RAB3IL1, SLC9A3R2 en ZNF598 een verlaagde expressie vertoonden. De 4.572 differentieel geëxpresseerde genen werden vervolgens gebruikt voor de GO- en KEGG-analyses.
 
-De analyse laat zien dat meerdere genen differentieel tot expressie komen tussen RA-patiënten en controles. Zowel genen met een verhoogde als genen met een verlaagde expressie in RA ten opzichte van controles zijn aanwezig. Aan de kant van de verlaagde expressie vallen onder andere ANKRD30BL, MT-ND6, RAB3IL1, SLC9A3R2 en ZNF598 op door hun sterke negatieve log₂ fold change en hoge statistische significantie. Aan de kant van de verhoogde expressie behoren onder andere SRGN, PTGFR, BCL2A1, COL6A5 en IGKV1-39 tot de opvallende genen. De differentieel geëxpresseerde genen vertonen daarmee zowel positieve als negatieve log₂ fold change-waarden, wat wijst op zowel verhoogde als verlaagde genexpressie in RA ten opzichte van controles.  In totaal zijn er 29.407 genen geanalyseerd, hiervan zijn er 4.572 genen die een significant verschil toonde tussen de RA- en controlesamples. Deze 4.572 genen worden verder gebruikt voor de GO analyse en KEGG pathway analyse.
 
 
 <img width="1833" height="791" alt="Vulcano Plot" src="https://github.com/user-attachments/assets/cdf04c7c-db35-4032-9e3d-5a88f7467582" />
