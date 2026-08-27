@@ -93,7 +93,7 @@ De resultaten laten zien dat voornamelijk immuun- en ontstekingsgerelateerde pat
 </p>
 
   
-<sub><b>Figuur 4. </b>De tien meest significant verrijkte KEGG pathways zijn weergegeven op de y-as. De x-as toont de GeneRatio. De grootte van de punten geeft het aantal genen (Count) weer en de kleur de aangepaste p-waarde (p.adjust).</sub>
+<sub><b>Figuur 3. </b>De tien meest significant verrijkte KEGG pathways zijn weergegeven op de y-as. De x-as toont de GeneRatio. De grootte van de punten geeft het aantal genen (Count) weer en de kleur de aangepaste p-waarde (p.adjust).</sub>
 
 ---
 
