@@ -104,9 +104,6 @@ Om de betrokkenheid van specifieke genen binnen de geselecteerde KEGG-pathways v
 <sub>**Figuur 4a** Differentieel tot expressie gebrachte genen binnen de KEGG rheumatoid arthritis pathway. De gekleurde genen geven de relatieve genexpressie weer ten opzichte van de controles. Rood geeft verhoogde expressie en groen verlaagde expressie weer.
 
 
-![Figuur 4b](Resultaten/Figuur%204b.%20%20Referentie%20KEGG-pathway%20van%20Reumatoïde%20Artritis..png)
-<sub>**Figuur 4b** De pathway toont de expressieveranderingen van genen in de RA-groep ten opzichte van de controlegroep. Rode vakken geven een verhoogde genexpressie en groene vakken een verlaagde genexpressie weer ten opzichte van de controles.
-
 ---
 
 
