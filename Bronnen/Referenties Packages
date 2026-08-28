@@ -1,11 +1,11 @@
-Blighe, K., Rana, S., & Lewis, M. (2025). EnhancedVolcano: Publication-ready volcano plots with enhanced colouring and labeling (R package version 1.28.2). GitHub. https://github.com/kevinblighe/EnhancedVolcano
+Blighe, K., Rana, S., & Lewis, M. (2025). *EnhancedVolcano: Publication-ready volcano plots with enhanced colouring and labeling* (Version 1.28.2) [R package]. GitHub. https://github.com/kevinblighe/EnhancedVolcano
 
-Carlson, M. (2025). org.Hs.eg.db: Genome wide annotation for Human (R package version 3.22.0).
+Carlson, M. (2025). *org.Hs.eg.db: Genome wide annotation for Human* (Version 3.22.0) [R package]. Bioconductor.
 
-Liao, Y., Smyth, G. K., & Shi, W. (2019). The R package Rsubread is easier, faster, cheaper and better for alignment and quantification of RNA sequencing reads. Nucleic Acids Research, 47(8), e47. https://doi.org/10.1093/nar/gkz114
+Liao, Y., Smyth, G. K., & Shi, W. (2019). The R package Rsubread is easier, faster, cheaper and better for alignment and quantification of RNA sequencing reads. *Nucleic Acids Research, 47*(8), e47. https://doi.org/10.1093/nar/gkz114
 
-Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biology, 15(12), 550. https://doi.org/10.1186/s13059-014-0550-8
+Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. *Genome Biology, 15*, 550. https://doi.org/10.1186/s13059-014-0550-8
 
-Luo, W., & Brouwer, C. (2013). Pathview: An R/Bioconductor package for pathway-based data integration and visualization. Bioinformatics, 29(14), 1830–1831. https://doi.org/10.1093/bioinformatics/btt285
+Luo, W., & Brouwer, C. (2013). Pathview: An R/Bioconductor package for pathway-based data integration and visualization. *Bioinformatics, 29*(14), 1830–1831. https://doi.org/10.1093/bioinformatics/btt285
 
-Xu, S., Hu, E., Cai, Y., Xie, Z., Luo, X., Zhan, L., Tang, W., Wang, Q., Liu, B., Wang, R., Xie, W., Wu, T., Xie, L., & Yu, G. (2024). Using clusterProfiler to characterize multiomics data. Nature Protocols, 19(11), 3292–3320.
+Xu, S., Hu, E., Cai, Y., Xie, Z., Luo, X., Zhan, L., Tang, W., Wang, Q., Liu, B., Wang, R., Xie, W., Wu, T., Xie, L., & Yu, G. (2024). Using clusterProfiler to characterize multiomics data. *Nature Protocols, 19*(11), 3292–3320. https://doi.org/10.1038/s41596-024-01020-z
