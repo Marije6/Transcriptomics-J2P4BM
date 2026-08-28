@@ -39,7 +39,7 @@ In dit project wordt een transcriptomicsanalyse uitgevoerd op RNA-sequencingdata
 **💗Methoden**
 
 
-Voor dit onderzoek werd gebruikgemaakt van paired-end RNA-sequencing (RNA-seq)-data van synoviumbiopten van acht vrouwelijke patiënten: vier met reumatoïde artritis (RA) en vier gezonde controles. De RA-patiënten hadden een ziekteduur van minimaal 12 maanden en waren ACPA-positief; de controles waren ACPA-negatief. De dataset is afkomstig van  [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf) 
+Voor dit onderzoek werd gebruikgemaakt van paired-end RNA-sequencing (RNA-seq)-data van synoviumbiopten van acht vrouwelijke patiënten: vier met reumatoïde artritis (RA) en vier gezonde controles. De RA-patiënten hadden een ziekteduur van minimaal 12 maanden en waren ACPA-positief, de controles waren ACPA-negatief. De dataset is afkomstig van  [Platzer et al. (2019)](./Bronnen/Platzer%20et%20al.,%202019.pdf) 
 
 De analyse werd uitgevoerd in R versie 4.5.2. Het humane referentiegenoom GRCh38.p14 (accession number: GCF_000001405.40) werd geïndexeerd met Rsubread versie 2.24.0 (Liao et al., 2019), waarna de paired-end reads werden gealigneerd. Met featureCounts() werd op basis van een GTF-annotatiebestand een gen-level countmatrix opgesteld. De countmatrix werd geanalyseerd met DESeq2 versie 1.50.2 (Love et al., 2014). Na normalisatie werd de genexpressie tussen de RA- en controlegroep vergeleken. Omdat duizenden genen tegelijkertijd werden getest, werden de p-waarden gecorrigeerd voor multiple testing met de Benjamini-Hochberg-methode. Genen met een adjusted p-value (padj) < 0,05 en een absolute log₂ fold change > 1 werden als significant beschouwd.
 
