@@ -119,7 +119,7 @@ Een beperking van dit onderzoek is de kleine steekproefomvang van 8, waardoor de
 
 
 
-**💗Bronnen**
+**💗Bronnen & referenties**
 ---
 De wetenschappelijke artikelen die voor dit project zijn gebruikt, zijn terug te vinden in de map `bronnen/`.
 
